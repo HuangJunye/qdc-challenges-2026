@@ -1,0 +1,70 @@
+# =============================================================================
+# QDC 2026 — minimal common dependencies (top-level, explicitly-imported only).
+#
+# A trimmed companion to requirements.txt: this lists only the distributions the
+# challenge notebooks and their support code actually `import`, pinned to the
+# versions requirements.txt resolved. Transitive dependencies are left to the
+# resolver, like last year's file. Packages that appear only in test suites or
+# only inside proteasome-inhibitor's vendored serverless_bundle/vendor/ trees
+# are intentionally excluded (e.g. cvxpy, plotly, sympy, psutil, qiskit-addon-obp).
+#
+# Covers the seven challenges on main + branches:
+#   floquet-dynamics · ole · verifiability challenge · fourier-LCU-QAOA ·
+#   ising-with-iceberg · thermal-states · proteasome-inhibitor
+# (qamoo is separate — see requirements-qamoo.txt.)
+#
+# Python 3.14 · cross-platform. Resolved universally and installed + import-tested
+# on CPython 3.14.10. mthree builds from an sdist (Cython + C compiler needed:
+# Xcode CLT / gcc on macOS/Linux, MSVC Build Tools on Windows); everything else
+# is a prebuilt wheel or a pure-Python sdist.
+#
+# Install:
+#   python3.14 -m venv .venv && source .venv/bin/activate   # (Windows: .venv\Scripts\activate)
+#   python -m pip install -r requirements.txt
+# =============================================================================
+
+# --- Qiskit stack (visualization extra pulls pylatexenc/pydot for circuit.draw("mpl")) ---
+qiskit[visualization]==2.6.2
+qiskit-aer==0.17.2
+qiskit-ibm-runtime[visualization]==0.51.0
+qiskit-ibm-catalog==0.22.0
+qiskit-serverless==0.38.0
+qiskit-mitigation==0.1.1
+qiskit-paulice==0.3.0
+
+# --- Qiskit addons / IBM packages ---
+qiskit-addon-utils==0.4.0
+qiskit-addon-opt-mapper==0.1.0
+qiskit-addon-slc==0.2.0
+samplomatic==0.21.0
+mapomatic==0.14.0
+moocore==0.3.2
+mthree==3.0.0
+runningman==2.3.0
+rustworkx==0.18.1
+
+# --- Scientific Python ---
+cplex==22.2.0.1
+numpy==2.4.4
+scipy==1.18.1
+networkx==3.7
+pandas==3.1.0
+matplotlib==3.10.9
+seaborn==0.13.2
+ortools==9.15.6755
+docplex==2.32.264
+quimb==1.15.0
+pyscf==2.14.0 ; sys_platform != 'win32'   # proteasome-inhibitor; no Windows wheel
+h5py==3.16.0
+tqdm==4.70.1
+PyYAML==6.0.3
+
+# --- Notebook / IO / misc ---
+nbformat==5.11.1
+ipython==8.39.0
+requests==2.34.2
+python-dotenv==1.2.4
+
+# --- Source installs (imported but not on PyPI; install from Git like last year) ---
+qopt_best_practices @ git+https://github.com/qiskit-community/qopt-best-practices.git@a861d46e6d77c64b87124a50216995d2d2d6d5fe
+qc-grader @ git+https://github.com/qiskit-community/Quantum-Challenge-Grader.git
