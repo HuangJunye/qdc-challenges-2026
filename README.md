@@ -63,14 +63,14 @@ You’ll work in Jupyter notebooks, which are available in this dedicated GitHub
 
 Each day will include dedicated time to work on challenges. Your team will be assigned to one of two tracks, each covering a diverse range of application domains to accommodate different skills and interests. Leaderboards will display team scores for each challenge in real time. At the end of the event, awards will be given on a per-track basis—the team with the highest overall score across all challenges in each track will win.
 
-Participants will have until Friday, November 14, at 13:00 ET to submit their solutions. Winners will be announced during the award ceremony at 16:00 on the same day.
+Participants will have until Friday, November 13, at 13:00 ET to submit their solutions. Winners will be announced during the award ceremony at 16:00 on the same day.
 
 The challenge notebooks can be found in their respective Track folders. See below for a summary of the topics covered by each challenge:
 
-### [Track A](https://github.com/qiskit-community/qdc-challenges-2025/tree/main/challenges/Track_A) (Location)
+### [Track A](https://github.com/qiskit-community/qdc-challenges-2025/tree/main/challenges/Track_A) (Location TBD)
 - #### TBD
 
-### [Track B](https://github.com/qiskit-community/qdc-challenges-2025/tree/main/challenges/Track_B) (Location)
+### [Track B](https://github.com/qiskit-community/qdc-challenges-2025/tree/main/challenges/Track_B) (Location TBD)
 - #### TBD
 
 
