@@ -45,6 +45,9 @@ rustworkx==0.18.1
 
 # --- Scientific Python ---
 cplex==22.2.0.1
+ffsim==0.0.85
+jax[cpu]==0.12.0.1
+ipykernel==7.4.0
 numpy==2.4.4
 scipy==1.18.1
 networkx==3.7
@@ -60,8 +63,9 @@ tqdm==4.70.1
 PyYAML==6.0.3
 
 # --- Notebook / IO / misc ---
-nbformat==5.11.1
 ipython==8.39.0
+jupyterlab==4.6.5
+nbformat==5.11.1
 requests==2.34.2
 python-dotenv==1.2.4
 
