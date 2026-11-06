@@ -24,7 +24,7 @@
 # =============================================================================
 
 # --- Qiskit stack (visualization extra pulls pylatexenc/pydot for circuit.draw("mpl")) ---
-qiskit[visualization]==2.6.2
+qiskit[visualization]==2.5.2
 qiskit-aer==0.17.2
 qiskit-ibm-runtime[visualization]==0.51.0
 qiskit-ibm-catalog==0.22.0
