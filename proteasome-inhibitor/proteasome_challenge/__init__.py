@@ -1212,7 +1212,7 @@ class Challenge(MeasurementRoutingMixin, ProtocolTransferMixin, HartreeFockMixin
         import qiskit_serverless.core.constants as _c
         _c.REQUESTS_TIMEOUT = _sc.REQUESTS_TIMEOUT = 300
 
-        def _targz_upload(self_inner, file, function):
+        def _targz_upload(self_inner, file, function, sub_path=None):
             fname = os.path.basename(file)
             buf = io.BytesIO()
             with tarfile.open(fileobj=buf, mode="w:gz") as tar:
