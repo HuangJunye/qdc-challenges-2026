@@ -48,73 +48,9 @@ Welcome to the IBM Quantum Developer Conference 2026! These challenges are desig
 
 ## Installation and Setup
 
-Please complete these steps before the challenges begin. Remember to bring a laptop with internet access, as no devices will be provided at the venue.
+To participate, please complete the setup instructions outlined in the [INSTALL.md](./INSTALL.md) file of this repository before the challenges begin. Remember to bring a laptop with internet access, as no devices will be provided at the venue.
 
-### Step 0: Create your IBM Quantum account
-
-[Create an IBM Quantum account](https://quantum.cloud.ibm.com/signin) if you haven't already. **Sign up using the *same email address* you registered with for this event.**
-
-### Step 1: Clone the repository
-
-```
-git clone https://github.com/qiskit-community/qdc-challenges-2026.git
-cd qdc-challenges-2026
-```
-
-### Step 2: Create a virtual environment
-
-The challenges are built and tested with **Python 3.14**. If you do not have it installed, follow the instructions [here](https://www.python.org/downloads/).
-
-macOS / Linux:
-```
-python3.14 -m venv qdc2026-venv
-source qdc2026-venv/bin/activate
-```
-
-Windows (PowerShell):
-```
-py -3.14 -m venv qdc2026-venv
-.\qdc2026-venv\Scripts\Activate.ps1
-```
-
-### Step 3: Install the required packages
-
-A single [`requirements.txt`](./requirements.txt) at the root of this repository covers all eight challenges. With the virtual environment active, run:
-```
-python -m pip install -r requirements.txt
-```
-
-- Whenever a challenge notebook asks you to install `requirements.txt`, it means this file. You only need to install it once.
-- `mthree` is built from source, so a C compiler is required (Xcode Command Line Tools on macOS, `gcc` on Linux).
-- On Windows, `mthree`, `ffsim` and `pyscf` are not available and are skipped. The Proteasome challenge needs them, so run it under [WSL](https://learn.microsoft.com/windows/wsl/install) (or on macOS / Linux).
-
-### Step 4: Register the Jupyter kernel and launch Jupyter
-
-```
-python -m ipykernel install --user --name=qdc2026-venv --display-name "QDC 2026"
-jupyter lab
-```
-
-Open each challenge notebook from inside its own folder and select the **`QDC 2026`** kernel (**`Kernel > Change Kernel...`**). The notebooks load their helper modules and data with paths relative to that folder.
-
-### Step 5: Save your IBM Quantum account
-
-The notebooks connect with `QiskitRuntimeService()`, which uses your default saved account. Save your event credentials once by running the following, replacing the placeholders with your API key and the instance for QDC 2026:
-```python
-from qiskit_ibm_runtime import QiskitRuntimeService
-
-QiskitRuntimeService.save_account(
-    token="<YOUR_API_KEY>",
-    instance="<YOUR_INSTANCE>",
-    set_as_default=True,
-    overwrite=True,
-)
-```
-
-The Proteasome challenge additionally reads its token, instance and backend from a local `.env` file: copy `.env.example` to `.env` in that challenge's folder and fill it in. Do not commit this file.
-
-### Step 6: Join your team
-
+To get your IBM Quantum _access credentials_ and join your team at the event, use the following steps:
 1. Meet your team (assigned at check-in).
 2. Join the [Qiskit Slack](https://qisk.it/join-slack) and the QDC 2026 challenges channel (**channel TBD**).
 3. Retrieve your team access credentials (**contact TBD**).
@@ -156,6 +92,7 @@ The challenge notebooks can be found in their respective Track folders. See belo
 ```
 qdc-challenges-2026/
 ├── README.md
+├── INSTALL.md                # setup guide
 ├── contest_rules.md
 ├── requirements.txt          # shared dependencies for all challenges
 └── challenges/
