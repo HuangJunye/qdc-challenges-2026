@@ -8,10 +8,10 @@
 # only inside proteasome-inhibitor's vendored serverless_bundle/vendor/ trees
 # are intentionally excluded (e.g. cvxpy, plotly, sympy, psutil, qiskit-addon-obp).
 #
-# Covers the seven challenges on main + branches:
-#   floquet-dynamics · ole · verifiability challenge · fourier-LCU-QAOA ·
-#   ising-with-iceberg · thermal-states · proteasome-inhibitor
-# (qamoo is separate — see requirements-qamoo.txt.)
+# Covers all eight challenges:
+#   challenges/Track_A: floquet-dynamics · proteasome-inhibitor ·
+#                       fourier-LCU-QAOA · verifiability
+#   challenges/Track_B: ole · thermal-states · qamoo · ising-with-iceberg
 #
 # Python 3.14 · cross-platform. Resolved universally and installed + import-tested
 # on CPython 3.14.10. mthree builds from an sdist (Cython + C compiler needed:
