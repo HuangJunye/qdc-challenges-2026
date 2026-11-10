@@ -4,8 +4,7 @@
 
 Based on E. Leviatan, T. Watad, R. Perry *et al.*, *Resolving Structure in Prethermal
 Floquet Dynamics with Precision Quantum Computation*,
-[arXiv:2607.24937](https://arxiv.org/abs/2607.24937) (2026). A local copy is in
-[doc/2607.24937v1.pdf](doc/2607.24937v1.pdf).
+[arXiv:2607.24937](https://arxiv.org/abs/2607.24937) (2026).
 
 | Notebook | Purpose |
 |---|---|
