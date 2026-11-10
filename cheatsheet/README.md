@@ -1,8 +1,6 @@
 # QDC 2026 Challenges Cheat Sheet
 
-> A directory of the features, tools and resources relevant to the QDC 2026 challenges, for participants and for the AI coding agents that help them. Each fact lives in one document; this page only indexes them.
-
-**Start here.**
+## Start here!
 - **Participants:** set up with [Getting started](guides/getting-started.md). Then start from [I want to…](#i-want-to) for a specific goal, or from [By algorithm family](#by-algorithm-family) for the tools your challenge's method uses. Your challenge notebook is the authority on what is required and graded.
 - **AI agents:** read [How to use this cheat sheet](guides/getting-started.md#how-to-use-this-cheat-sheet) before you act; it has rules on QPU time, credentials and graded code. This page is long, so read only the view you need: [I want to…](#i-want-to) maps tasks to entries, and [All entries](#all-entries) lists every entry with its tags, which [taxonomy.toml](tools/taxonomy.toml) defines. Every link names a document and a heading, so load only those sections.
 
