@@ -35,7 +35,7 @@ Heron QPUs run *fractional gates*: a native `RZZ(θ)` for 0 < θ ≤ π/2 and `R
 - **Related:** [Choosing error detection and mitigation](../guides/techniques.md#choosing-error-detection-and-mitigation) has a fractional `RZZ` column for every mitigation method; [Twirling options in the primitives](#twirling-options-in-the-primitives) covers the `local_pauli` group.
 
 **Docs:**
-- [Fractional gates](https://quantum.cloud.ibm.com/docs/en/guides/fractional-gates)
+- [Fractional gates](https://quantum.cloud.ibm.com/docs/guides/fractional-gates)
 
 ## Specially calibrated instructions and calibration sets
 
@@ -72,10 +72,10 @@ The runtime also provides transpiler passes:
 - **Related:** [Dynamic circuits and resets](#dynamic-circuits-and-resets), [Fractional gates](#fractional-gates)
 
 **Docs:**
-- [Specially calibrated instructions and calibration sets](https://quantum.cloud.ibm.com/docs/en/guides/custom-calibration)
-- [circuit.library API](https://quantum.cloud.ibm.com/docs/en/api/qiskit-ibm-runtime/circuit-library)
-- [FoldRzzAngle](https://quantum.cloud.ibm.com/docs/en/api/qiskit-ibm-runtime/transpiler-passes-fold-rzz-angle)
-- [ConvertISAToClifford](https://quantum.cloud.ibm.com/docs/en/api/qiskit-ibm-runtime/transpiler-passes-convert-isa-to-clifford)
+- [Specially calibrated instructions and calibration sets](https://quantum.cloud.ibm.com/docs/guides/custom-calibration)
+- [circuit.library API](https://quantum.cloud.ibm.com/docs/api/qiskit-ibm-runtime/circuit-library)
+- [FoldRzzAngle](https://quantum.cloud.ibm.com/docs/api/qiskit-ibm-runtime/transpiler-passes-fold-rzz-angle)
+- [ConvertISAToClifford](https://quantum.cloud.ibm.com/docs/api/qiskit-ibm-runtime/transpiler-passes-convert-isa-to-clifford)
 
 ## Dynamic circuits and resets
 
@@ -94,11 +94,11 @@ Dynamic circuits measure qubits mid-circuit and act on the results in real time 
 - **Related:** [Specially calibrated instructions and calibration sets](#specially-calibrated-instructions-and-calibration-sets) for `measure_2`, `reset_2` and `measure_reset`.
 
 **Docs:**
-- [Classical feedforward and control flow](https://quantum.cloud.ibm.com/docs/en/guides/classical-feedforward-and-control-flow)
-- [Execute dynamic circuits](https://quantum.cloud.ibm.com/docs/en/guides/execute-dynamic-circuits)
-- [Deferred timing resolution using stretch](https://quantum.cloud.ibm.com/docs/en/guides/stretch)
-- [Tutorial: long-range entanglement with dynamic circuits](https://quantum.cloud.ibm.com/docs/en/tutorials/long-range-entanglement)
-- [IBM Quantum Compute Service changelog](https://quantum.cloud.ibm.com/docs/en/guides/changelog-quantum-compute-service)
+- [Classical feedforward and control flow](https://quantum.cloud.ibm.com/docs/guides/classical-feedforward-and-control-flow)
+- [Execute dynamic circuits](https://quantum.cloud.ibm.com/docs/guides/execute-dynamic-circuits)
+- [Deferred timing resolution using stretch](https://quantum.cloud.ibm.com/docs/guides/stretch)
+- [Tutorial: long-range entanglement with dynamic circuits](https://quantum.cloud.ibm.com/docs/tutorials/long-range-entanglement)
+- [IBM Quantum Compute Service changelog](https://quantum.cloud.ibm.com/docs/guides/changelog-quantum-compute-service)
 
 ## Dynamical decoupling options
 
@@ -114,7 +114,7 @@ The primitives can insert dynamical decoupling (DD) for you: enable `options.dyn
 - **Related:** [Twirling options in the primitives](#twirling-options-in-the-primitives), the other suppression option of the primitives.
 
 **Docs:**
-- [Error mitigation and suppression techniques](https://quantum.cloud.ibm.com/docs/en/guides/error-mitigation-and-suppression-techniques)
+- [Error mitigation and suppression techniques](https://quantum.cloud.ibm.com/docs/guides/error-mitigation-and-suppression-techniques)
 
 ## Executor and QuantumProgram
 
@@ -137,15 +137,15 @@ The primitives can insert dynamical decoupling (DD) for you: enable `options.dyn
 - **Related:** [Pauli twirling with Samplomatic](noise-management.md#pauli-twirling-with-samplomatic) builds the samplex items; [Sampler and Estimator: client-side primitives](#sampler-and-estimator-client-side-primitives) wraps `Executor` in the PUB interface.
 
 **Docs:**
-- [Directed execution model overview](https://quantum.cloud.ibm.com/docs/en/guides/directed-execution-model)
-- [Executor quickstart](https://quantum.cloud.ibm.com/docs/en/guides/get-started-with-executor)
-- [Executor inputs and outputs](https://quantum.cloud.ibm.com/docs/en/guides/executor-input-output)
-- [Executor broadcasting](https://quantum.cloud.ibm.com/docs/en/guides/executor-broadcasting)
-- [Executor options](https://quantum.cloud.ibm.com/docs/en/guides/executor-options)
-- [Executor examples](https://quantum.cloud.ibm.com/docs/en/guides/executor-examples)
-- [Migrate from Sampler to Executor](https://quantum.cloud.ibm.com/docs/en/guides/migrate-from-sampler-to-executor)
-- [Executor API](https://quantum.cloud.ibm.com/docs/en/api/qiskit-ibm-runtime/executor)
-- [IBM Quantum Compute client release notes](https://quantum.cloud.ibm.com/docs/en/api/qiskit-ibm-runtime/release-notes)
+- [Directed execution model overview](https://quantum.cloud.ibm.com/docs/guides/directed-execution-model)
+- [Executor quickstart](https://quantum.cloud.ibm.com/docs/guides/get-started-with-executor)
+- [Executor inputs and outputs](https://quantum.cloud.ibm.com/docs/guides/executor-input-output)
+- [Executor broadcasting](https://quantum.cloud.ibm.com/docs/guides/executor-broadcasting)
+- [Executor options](https://quantum.cloud.ibm.com/docs/guides/executor-options)
+- [Executor examples](https://quantum.cloud.ibm.com/docs/guides/executor-examples)
+- [Migrate from Sampler to Executor](https://quantum.cloud.ibm.com/docs/guides/migrate-from-sampler-to-executor)
+- [Executor API](https://quantum.cloud.ibm.com/docs/api/qiskit-ibm-runtime/executor)
+- [IBM Quantum Compute client release notes](https://quantum.cloud.ibm.com/docs/api/qiskit-ibm-runtime/release-notes)
 
 ## Sampler and Estimator: client-side primitives
 
@@ -179,17 +179,17 @@ The primitives can insert dynamical decoupling (DD) for you: enable `options.dyn
   - Not every option works with every circuit: gate twirling (in the default group), PEA and PEC refuse fractional gates, and gate-folding ZNE cannot be combined with PEA or PEC (see the feature compatibility table in the Estimator options guide). Gate-folding ZNE (`zne_mitigation = True` with the default amplifier) is accepted on a circuit with fractional `rzz` gates but amplifies nothing: the folding touches only ECR, CX, CY, CZ and SWAP (`SUPPORTED_FOLDED_GATES`, [qiskit-mitigation](noise-management.md#qiskit-mitigation-trex-zne-pea-and-pec)), so the noise-factor circuits are identical copies, the job costs as many times the shots as there are noise factors, and the extrapolation fits shot noise, without any warning. For a fractional-gate circuit, run TREX alone (`resilience_level = 0`, `measure_mitigation = True`) and fold the `rzz` gates yourself, one PUB per noise factor ([qiskit-mitigation](noise-management.md#qiskit-mitigation-trex-zne-pea-and-pec), [Practical tips](../guides/testing-and-tips.md#practical-tips)), or load the backend with `use_fractional_gates=False`, so that each `rzz` becomes two CZ gates that the built-in ZNE, gate twirling, PEA and PEC can handle, at the price of a longer circuit.
 
 **Docs:**
-- [Migrate to client-side primitives](https://quantum.cloud.ibm.com/docs/en/guides/migrate-to-client-side-primitives)
-- [executor_sampler.Sampler API](https://quantum.cloud.ibm.com/docs/en/api/qiskit-ibm-runtime/executor-sampler-sampler)
-- [executor_estimator.Estimator API](https://quantum.cloud.ibm.com/docs/en/api/qiskit-ibm-runtime/executor-estimator-estimator)
-- [Primitive inputs and outputs](https://quantum.cloud.ibm.com/docs/en/guides/primitive-input-output)
-- [Introduction to primitive options](https://quantum.cloud.ibm.com/docs/en/guides/runtime-options-overview)
-- [Sampler options](https://quantum.cloud.ibm.com/docs/en/guides/sampler-options)
-- [Estimator options](https://quantum.cloud.ibm.com/docs/en/guides/estimator-options)
-- [Introduction to primitives, with examples](https://quantum.cloud.ibm.com/docs/en/guides/primitives-examples)
-- [Tutorial: combine error mitigation options with the Estimator](https://quantum.cloud.ibm.com/docs/en/tutorials/combine-error-mitigation-techniques)
-- [Noise management with the Estimator](https://quantum.cloud.ibm.com/docs/en/guides/estimator-noise-management)
-- [ConvertISAToClifford transpiler pass](https://quantum.cloud.ibm.com/docs/en/api/qiskit-ibm-runtime/transpiler-passes-convert-isa-to-clifford)
+- [Migrate to client-side primitives](https://quantum.cloud.ibm.com/docs/guides/migrate-to-client-side-primitives)
+- [executor_sampler.Sampler API](https://quantum.cloud.ibm.com/docs/api/qiskit-ibm-runtime/executor-sampler-sampler)
+- [executor_estimator.Estimator API](https://quantum.cloud.ibm.com/docs/api/qiskit-ibm-runtime/executor-estimator-estimator)
+- [Primitive inputs and outputs](https://quantum.cloud.ibm.com/docs/guides/primitive-input-output)
+- [Introduction to primitive options](https://quantum.cloud.ibm.com/docs/guides/runtime-options-overview)
+- [Sampler options](https://quantum.cloud.ibm.com/docs/guides/sampler-options)
+- [Estimator options](https://quantum.cloud.ibm.com/docs/guides/estimator-options)
+- [Introduction to primitives, with examples](https://quantum.cloud.ibm.com/docs/guides/primitives-examples)
+- [Tutorial: combine error mitigation options with the Estimator](https://quantum.cloud.ibm.com/docs/tutorials/combine-error-mitigation-techniques)
+- [Noise management with the Estimator](https://quantum.cloud.ibm.com/docs/guides/estimator-noise-management)
+- [ConvertISAToClifford transpiler pass](https://quantum.cloud.ibm.com/docs/api/qiskit-ibm-runtime/transpiler-passes-convert-isa-to-clifford)
 
 ## Execution modes: job, batch and session
 
@@ -205,11 +205,11 @@ A job runs on its own. A `Batch` groups independent jobs so they are scheduled t
   - A batch or session is deactivated when no job is ready within the interactive time to live, and it ends when the maximum time to live runs out; queued jobs then fail.
 
 **Docs:**
-- [Execution modes](https://quantum.cloud.ibm.com/docs/en/guides/execution-modes)
-- [Choose the right execution mode](https://quantum.cloud.ibm.com/docs/en/guides/choose-execution-mode)
-- [Run jobs in a batch](https://quantum.cloud.ibm.com/docs/en/guides/run-jobs-batch)
-- [Run jobs in a session](https://quantum.cloud.ibm.com/docs/en/guides/run-jobs-session)
-- [Execution modes FAQ](https://quantum.cloud.ibm.com/docs/en/guides/execution-modes-faq)
+- [Execution modes](https://quantum.cloud.ibm.com/docs/guides/execution-modes)
+- [Choose the right execution mode](https://quantum.cloud.ibm.com/docs/guides/choose-execution-mode)
+- [Run jobs in a batch](https://quantum.cloud.ibm.com/docs/guides/run-jobs-batch)
+- [Run jobs in a session](https://quantum.cloud.ibm.com/docs/guides/run-jobs-session)
+- [Execution modes FAQ](https://quantum.cloud.ibm.com/docs/guides/execution-modes-faq)
 
 ## Budgeting QPU time
 
@@ -232,13 +232,13 @@ To count the executions a client-side Sampler or Estimator will submit, run it l
   - The experimental `scheduler_timing` option returns the circuit time, but that is not the time used for billing.
 
 **Docs:**
-- [Workload usage (estimate and query usage)](https://quantum.cloud.ibm.com/docs/en/guides/estimate-job-run-time)
-- [Minimize job run time](https://quantum.cloud.ibm.com/docs/en/guides/minimize-time)
-- [Maximum execution time](https://quantum.cloud.ibm.com/docs/en/guides/max-execution-time)
-- [Qubit initialization and repetition delay](https://quantum.cloud.ibm.com/docs/en/guides/repetition-rate-execution)
-- [Circuit timing for Executor and Sampler jobs](https://quantum.cloud.ibm.com/docs/en/guides/qiskit-runtime-circuit-timing)
-- [RuntimeJobV2 (usage, metrics)](https://quantum.cloud.ibm.com/docs/en/api/qiskit-ibm-runtime/runtime-job-v2)
-- [IBM Quantum Compute Service changelog](https://quantum.cloud.ibm.com/docs/en/guides/changelog-quantum-compute-service)
+- [Workload usage (estimate and query usage)](https://quantum.cloud.ibm.com/docs/guides/estimate-job-run-time)
+- [Minimize job run time](https://quantum.cloud.ibm.com/docs/guides/minimize-time)
+- [Maximum execution time](https://quantum.cloud.ibm.com/docs/guides/max-execution-time)
+- [Qubit initialization and repetition delay](https://quantum.cloud.ibm.com/docs/guides/repetition-rate-execution)
+- [Circuit timing for Executor and Sampler jobs](https://quantum.cloud.ibm.com/docs/guides/qiskit-runtime-circuit-timing)
+- [RuntimeJobV2 (usage, metrics)](https://quantum.cloud.ibm.com/docs/api/qiskit-ibm-runtime/runtime-job-v2)
+- [IBM Quantum Compute Service changelog](https://quantum.cloud.ibm.com/docs/guides/changelog-quantum-compute-service)
 
 ## Saving results and job IDs
 
@@ -252,8 +252,8 @@ Save results with `RuntimeEncoder`, and keep every job ID on disk. IBM stores th
 - **Related:** [Saving circuits with QPY](qiskit-sdk.md#saving-circuits-with-qpy)
 
 **Docs:**
-- [Retrieve and save job results](https://quantum.cloud.ibm.com/docs/en/guides/save-jobs)
-- [Monitor or cancel a job](https://quantum.cloud.ibm.com/docs/en/guides/monitor-job)
+- [Retrieve and save job results](https://quantum.cloud.ibm.com/docs/guides/save-jobs)
+- [Monitor or cancel a job](https://quantum.cloud.ibm.com/docs/guides/monitor-job)
 
 ## Twirling options in the primitives
 
@@ -272,9 +272,9 @@ The Sampler and Estimator also twirl for you through their options. Measurement 
 - **Related:** [Dynamical decoupling options](#dynamical-decoupling-options), the other suppression option of the primitives.
 
 **Docs:**
-- [Noise management with the Sampler](https://quantum.cloud.ibm.com/docs/en/guides/sampler-noise-management)
-- [TwirlingOptions (client-side)](https://quantum.cloud.ibm.com/docs/en/api/qiskit-ibm-runtime/options-models-twirling-options)
-- [Estimator options: feature compatibility](https://quantum.cloud.ibm.com/docs/en/guides/estimator-options#options-compatibility-table)
+- [Noise management with the Sampler](https://quantum.cloud.ibm.com/docs/guides/sampler-noise-management)
+- [TwirlingOptions (client-side)](https://quantum.cloud.ibm.com/docs/api/qiskit-ibm-runtime/options-models-twirling-options)
+- [Estimator options: feature compatibility](https://quantum.cloud.ibm.com/docs/guides/estimator-options#options-compatibility-table)
 
 ## NoiseLearnerV3
 
@@ -295,11 +295,11 @@ The Sampler and Estimator also twirl for you through their options. Measurement 
 - **Related:** [qiskit-mitigation: TREX, ZNE, PEA and PEC](noise-management.md#qiskit-mitigation-trex-zne-pea-and-pec) consumes the learned maps; [Pauli twirling with Samplomatic](noise-management.md#pauli-twirling-with-samplomatic) builds the boxed layers it learns; [Custom noise learning](noise-management.md#custom-noise-learning-qiskit-noise-learning) covers learning experiments of your own.
 
 **Docs:**
-- [Migrate to NoiseLearnerV3](https://quantum.cloud.ibm.com/docs/en/guides/migrate-to-noise-learner-v3)
-- [Noise learning helper](https://quantum.cloud.ibm.com/docs/en/guides/noise-learning)
-- [NoiseLearnerV3 API](https://quantum.cloud.ibm.com/docs/en/api/qiskit-ibm-runtime/noise-learner-v3-noise-learner-v3)
-- [NoiseLearnerV3Options API](https://quantum.cloud.ibm.com/docs/en/api/qiskit-ibm-runtime/options-models-noise-learner-v3-options)
-- [NoiseLearnerV3Results API](https://quantum.cloud.ibm.com/docs/en/api/qiskit-ibm-runtime/results-noise-learner-v3-results)
+- [Migrate to NoiseLearnerV3](https://quantum.cloud.ibm.com/docs/guides/migrate-to-noise-learner-v3)
+- [Noise learning helper](https://quantum.cloud.ibm.com/docs/guides/noise-learning)
+- [NoiseLearnerV3 API](https://quantum.cloud.ibm.com/docs/api/qiskit-ibm-runtime/noise-learner-v3-noise-learner-v3)
+- [NoiseLearnerV3Options API](https://quantum.cloud.ibm.com/docs/api/qiskit-ibm-runtime/options-models-noise-learner-v3-options)
+- [NoiseLearnerV3Results API](https://quantum.cloud.ibm.com/docs/api/qiskit-ibm-runtime/results-noise-learner-v3-results)
 
 ## Fake backends and local testing mode
 
@@ -322,10 +322,10 @@ The Sampler and Estimator also twirl for you through their options. Measurement 
 - **Related:** [Qiskit Aer](simulators.md#qiskit-aer) for custom noise models and larger or Clifford simulations.
 
 **Docs:**
-- [Local testing mode](https://quantum.cloud.ibm.com/docs/en/guides/local-testing-mode)
-- [Fake provider API](https://quantum.cloud.ibm.com/docs/en/api/qiskit-ibm-runtime/fake-provider)
-- [IBM Quantum Compute client release notes](https://quantum.cloud.ibm.com/docs/en/api/qiskit-ibm-runtime/release-notes)
-- [Debug jobs with NEAT (noise impact on an Estimator workload)](https://quantum.cloud.ibm.com/docs/en/guides/debug-qiskit-runtime-jobs)
+- [Local testing mode](https://quantum.cloud.ibm.com/docs/guides/local-testing-mode)
+- [Fake provider API](https://quantum.cloud.ibm.com/docs/api/qiskit-ibm-runtime/fake-provider)
+- [IBM Quantum Compute client release notes](https://quantum.cloud.ibm.com/docs/api/qiskit-ibm-runtime/release-notes)
+- [Debug jobs with NEAT (noise impact on an Estimator workload)](https://quantum.cloud.ibm.com/docs/guides/debug-qiskit-runtime-jobs)
 
 ## NEAT: the noisy Estimator analyzer
 
@@ -341,8 +341,8 @@ The Sampler and Estimator also twirl for you through their options. Measurement 
   - Map observables onto the ISA layout with `apply_layout` ([Sampler and Estimator](#sampler-and-estimator-client-side-primitives)); see [NoiseLearnerV3](#noiselearnerv3) and [qiskit-mitigation](noise-management.md#qiskit-mitigation-trex-zne-pea-and-pec) for noise learning and mitigation.
 
 **Docs:**
-- [Debug jobs with NEAT](https://quantum.cloud.ibm.com/docs/en/guides/debug-qiskit-runtime-jobs)
-- [Neat API](https://quantum.cloud.ibm.com/docs/en/api/qiskit-ibm-runtime/debug-tools-neat)
-- [debug_tools API](https://quantum.cloud.ibm.com/docs/en/api/qiskit-ibm-runtime/debug-tools)
-- [ConvertISAToClifford](https://quantum.cloud.ibm.com/docs/en/api/qiskit-ibm-runtime/transpiler-passes-convert-isa-to-clifford)
-- [Debugging tools introduction](https://quantum.cloud.ibm.com/docs/en/guides/debugging-tools)
+- [Debug jobs with NEAT](https://quantum.cloud.ibm.com/docs/guides/debug-qiskit-runtime-jobs)
+- [Neat API](https://quantum.cloud.ibm.com/docs/api/qiskit-ibm-runtime/debug-tools-neat)
+- [debug_tools API](https://quantum.cloud.ibm.com/docs/api/qiskit-ibm-runtime/debug-tools)
+- [ConvertISAToClifford](https://quantum.cloud.ibm.com/docs/api/qiskit-ibm-runtime/transpiler-passes-convert-isa-to-clifford)
+- [Debugging tools introduction](https://quantum.cloud.ibm.com/docs/guides/debugging-tools)

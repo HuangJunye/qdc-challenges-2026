@@ -45,8 +45,8 @@ The successor to the modeling layer of `qiskit-optimization`. You build an `Opti
 - [Migrate from qiskit-optimization](https://qiskit.github.io/qiskit-addon-opt-mapper/how_tos/00_migrate_from_qiskit_optimization.html)
 - [Converters for optimization problems](https://qiskit.github.io/qiskit-addon-opt-mapper/how_tos/02_converters_for_optimization_problems.html)
 - [Translate to and from docplex](https://qiskit.github.io/qiskit-addon-opt-mapper/how_tos/04_translate_docplex.html)
-- [Tutorial: quantum approximate multi-objective optimization](https://quantum.cloud.ibm.com/docs/en/tutorials/quantum-approximate-multi-objective-optimization)
-- [Tutorial: warm-start QAOA with the Optimization Mapper](https://quantum.cloud.ibm.com/docs/en/tutorials/warm-start-qaoa)
+- [Tutorial: quantum approximate multi-objective optimization](https://quantum.cloud.ibm.com/docs/tutorials/quantum-approximate-multi-objective-optimization)
+- [Tutorial: warm-start QAOA with the Optimization Mapper](https://quantum.cloud.ibm.com/docs/tutorials/warm-start-qaoa)
 
 ## Qiskit Fermions (qiskit-fermions)
 
@@ -66,8 +66,8 @@ The `qiskit-fermions` addon represents fermionic operators and circuits and maps
 - **Related:** [Chemistry: PySCF and ffsim](ecosystem.md#chemistry-pyscf-and-ffsim), [SQD](#sample-based-quantum-diagonalization-qiskit-addon-sqd)
 
 **Docs:**
-- [Qiskit Fermions overview](https://quantum.cloud.ibm.com/docs/en/addons/qiskit-fermions)
-- [Guide: transpile an LUCJ ansatz](https://quantum.cloud.ibm.com/docs/en/addons/qiskit-fermions/guides/lucj)
+- [Qiskit Fermions overview](https://quantum.cloud.ibm.com/docs/addons/qiskit-fermions)
+- [Guide: transpile an LUCJ ansatz](https://quantum.cloud.ibm.com/docs/addons/qiskit-fermions/guides/lucj)
 
 ## Operator backpropagation (qiskit-addon-obp)
 
@@ -80,9 +80,9 @@ Operator backpropagation (OBP) makes a deep circuit shallower by moving the last
 - **Related:** [AQC-Tensor](#aqc-tensor-qiskit-addon-aqc-tensor) shortens the start of the circuit instead; [Exact and tensor-network references](simulators.md#exact-and-tensor-network-references) for reference values.
 
 **Docs:**
-- [Operator backpropagation overview](https://quantum.cloud.ibm.com/docs/en/addons/qiskit-addon-obp)
-- [OBP quickstart](https://quantum.cloud.ibm.com/docs/en/addons/qiskit-addon-obp/guides/quickstart)
-- [Tutorial: operator backpropagation](https://quantum.cloud.ibm.com/docs/en/tutorials/operator-back-propagation)
+- [Operator backpropagation overview](https://quantum.cloud.ibm.com/docs/addons/qiskit-addon-obp)
+- [OBP quickstart](https://quantum.cloud.ibm.com/docs/addons/qiskit-addon-obp/guides/quickstart)
+- [Tutorial: operator backpropagation](https://quantum.cloud.ibm.com/docs/tutorials/operator-back-propagation)
 
 ## AQC-Tensor (qiskit-addon-aqc-tensor)
 
@@ -97,9 +97,9 @@ AQC-Tensor makes a deep circuit shallower by replacing its first part with a sha
 
 **Docs:**
 - [AQC-Tensor documentation](https://qiskit.github.io/qiskit-addon-aqc-tensor/)
-- [AQC-Tensor API reference](https://quantum.cloud.ibm.com/docs/en/api/qiskit-addon-aqc-tensor)
-- [Tutorial: AQC for time evolution](https://quantum.cloud.ibm.com/docs/en/tutorials/approximate-quantum-compilation-for-time-evolution)
-- [Guide: deploy a Qiskit Function template for AQC + Trotter dynamics](https://quantum.cloud.ibm.com/docs/en/guides/function-template-aqc-trotter)
+- [AQC-Tensor API reference](https://quantum.cloud.ibm.com/docs/api/qiskit-addon-aqc-tensor)
+- [Tutorial: AQC for time evolution](https://quantum.cloud.ibm.com/docs/tutorials/approximate-quantum-compilation-for-time-evolution)
+- [Guide: deploy a Qiskit Function template for AQC + Trotter dynamics](https://quantum.cloud.ibm.com/docs/guides/function-template-aqc-trotter)
 
 ## Circuit cutting (qiskit-addon-cutting)
 
@@ -119,9 +119,9 @@ Circuit cutting cuts two-qubit gates or wires, runs the resulting smaller subcir
 - [Explanation: overview of circuit cutting and sampling overheads](https://qiskit.github.io/qiskit-addon-cutting/explanation/index.html)
 - [Tutorials](https://qiskit.github.io/qiskit-addon-cutting/tutorials/index.html)
 - [How-to guides](https://qiskit.github.io/qiskit-addon-cutting/how-tos/index.html)
-- [API reference](https://quantum.cloud.ibm.com/docs/en/api/qiskit-addon-cutting/qiskit-addon-cutting)
-- [Release notes](https://quantum.cloud.ibm.com/docs/en/api/qiskit-addon-cutting/release-notes)
-- [Qiskit addons overview](https://quantum.cloud.ibm.com/docs/en/guides/addons)
+- [API reference](https://quantum.cloud.ibm.com/docs/api/qiskit-addon-cutting/qiskit-addon-cutting)
+- [Release notes](https://quantum.cloud.ibm.com/docs/api/qiskit-addon-cutting/release-notes)
+- [Qiskit addons overview](https://quantum.cloud.ibm.com/docs/guides/addons)
 
 ## Spacetime Pauli checks (qiskit-paulice)
 
@@ -143,11 +143,11 @@ The library picks the checks that catch the most noise under a noise model of yo
   - Since 1 October 2026, `FaultRates.harmless_rate` on GitHub `main` is a fraction of all shots. Divide it by `acceptance_rate` for the rate among accepted shots. Code written before that change may treat it as the rate among accepted shots; check which normalization your code assumes.
 
 **Docs:**
-- [Qiskit Paulice overview](https://quantum.cloud.ibm.com/docs/en/addons/qiskit-addon-paulice)
-- [Quickstart](https://quantum.cloud.ibm.com/docs/en/addons/qiskit-addon-paulice/guides/quickstart)
-- [Low-overhead error detection using spacetime codes](https://quantum.cloud.ibm.com/docs/en/addons/qiskit-addon-paulice/guides/low-overhead-error-detection-using-spacetime-codes)
-- [Tutorial: spacetime codes](https://quantum.cloud.ibm.com/docs/en/tutorials/spacetime-codes)
-- [API reference](https://quantum.cloud.ibm.com/docs/en/api/qiskit-addon-paulice)
+- [Qiskit Paulice overview](https://quantum.cloud.ibm.com/docs/addons/qiskit-addon-paulice)
+- [Quickstart](https://quantum.cloud.ibm.com/docs/addons/qiskit-addon-paulice/guides/quickstart)
+- [Low-overhead error detection using spacetime codes](https://quantum.cloud.ibm.com/docs/addons/qiskit-addon-paulice/guides/low-overhead-error-detection-using-spacetime-codes)
+- [Tutorial: spacetime codes](https://quantum.cloud.ibm.com/docs/tutorials/spacetime-codes)
+- [API reference](https://quantum.cloud.ibm.com/docs/api/qiskit-addon-paulice)
 - [GitHub repository](https://github.com/Qiskit/qiskit-paulice)
 - [Paper: low-overhead error detection with spacetime codes](https://arxiv.org/abs/2504.15725)
 
@@ -167,9 +167,9 @@ The library picks the checks that catch the most noise under a noise model of yo
   - `BitArray.expectation_values` only takes diagonal observables (I, Z, 0, 1) with as many qubits as the array has bits.
 
 **Docs:**
-- [qiskit-addon-utils exp_vals API](https://quantum.cloud.ibm.com/docs/en/api/qiskit-addon-utils/exp-vals)
-- [qiskit-mitigation utils API](https://quantum.cloud.ibm.com/docs/en/api/qiskit-mitigation/utils)
-- [BitArray API](https://quantum.cloud.ibm.com/docs/en/api/qiskit/qiskit.primitives.BitArray)
+- [qiskit-addon-utils exp_vals API](https://quantum.cloud.ibm.com/docs/api/qiskit-addon-utils/exp-vals)
+- [qiskit-mitigation utils API](https://quantum.cloud.ibm.com/docs/api/qiskit-mitigation/utils)
+- [BitArray API](https://quantum.cloud.ibm.com/docs/api/qiskit/qiskit.primitives.BitArray)
 
 ## Shaded light cones (qiskit-addon-slc)
 
@@ -188,11 +188,11 @@ PEC gives unbiased results, but its sampling cost grows quickly with circuit siz
   - The tutorial sets `multiprocessing.set_start_method("spawn")` and `OMP_NUM_THREADS=1` before the bound computation. Windows is not supported.
 
 **Docs:**
-- [Shaded light cones overview](https://quantum.cloud.ibm.com/docs/en/addons/qiskit-addon-slc)
-- [Quickstart](https://quantum.cloud.ibm.com/docs/en/addons/qiskit-addon-slc/guides/quickstart)
-- [Tutorial: PEC with shaded light cones](https://quantum.cloud.ibm.com/docs/en/tutorials/pec-with-shaded-lightcones)
-- [bounds API](https://quantum.cloud.ibm.com/docs/en/api/qiskit-addon-slc/bounds)
-- [Release notes](https://quantum.cloud.ibm.com/docs/en/api/qiskit-addon-slc/release-notes)
+- [Shaded light cones overview](https://quantum.cloud.ibm.com/docs/addons/qiskit-addon-slc)
+- [Quickstart](https://quantum.cloud.ibm.com/docs/addons/qiskit-addon-slc/guides/quickstart)
+- [Tutorial: PEC with shaded light cones](https://quantum.cloud.ibm.com/docs/tutorials/pec-with-shaded-lightcones)
+- [bounds API](https://quantum.cloud.ibm.com/docs/api/qiskit-addon-slc/bounds)
+- [Release notes](https://quantum.cloud.ibm.com/docs/api/qiskit-addon-slc/release-notes)
 - [GitHub repository](https://github.com/Qiskit/qiskit-addon-slc)
 
 ## Propagated noise absorption and Pauli propagation
@@ -210,11 +210,11 @@ PEC gives unbiased results, but its sampling cost grows quickly with circuit siz
   - The tutorial transpiles with `optimization_level=0` and a fixed `initial_layout` so the two-qubit layers that the boxing and noise learning rely on survive.
 
 **Docs:**
-- [PNA overview](https://quantum.cloud.ibm.com/docs/en/addons/qiskit-addon-pna)
-- [PNA API](https://quantum.cloud.ibm.com/docs/en/api/qiskit-addon-pna/qiskit-addon-pna)
-- [Tutorial: propagated noise absorption](https://quantum.cloud.ibm.com/docs/en/tutorials/propagated-noise-absorption)
-- [Pauli propagation overview](https://quantum.cloud.ibm.com/docs/en/addons/pauli-prop)
-- [Simulate noisy expectation values with Pauli propagation](https://quantum.cloud.ibm.com/docs/en/addons/pauli-prop/guides/simulate-noisy-expectation-values)
+- [PNA overview](https://quantum.cloud.ibm.com/docs/addons/qiskit-addon-pna)
+- [PNA API](https://quantum.cloud.ibm.com/docs/api/qiskit-addon-pna/qiskit-addon-pna)
+- [Tutorial: propagated noise absorption](https://quantum.cloud.ibm.com/docs/tutorials/propagated-noise-absorption)
+- [Pauli propagation overview](https://quantum.cloud.ibm.com/docs/addons/pauli-prop)
+- [Simulate noisy expectation values with Pauli propagation](https://quantum.cloud.ibm.com/docs/addons/pauli-prop/guides/simulate-noisy-expectation-values)
 
 ## Measurement mitigation with M3 (mthree)
 
@@ -255,15 +255,15 @@ SQD turns noisy hardware samples into an accurate energy estimate. It recovers c
 - **Related:** [Managed Workflows](managed-workflows.md#write-upload-and-run-a-workflow) to run the post-processing next to the QPU; [Qiskit Function templates](managed-workflows.md#qiskit-function-templates) for ready-made SQD workflows.
 
 **Docs:**
-- [SQD overview](https://quantum.cloud.ibm.com/docs/en/addons/qiskit-addon-sqd)
-- [SQD quickstart](https://quantum.cloud.ibm.com/docs/en/addons/qiskit-addon-sqd/guides/quickstart)
-- [Bounding the subspace dimension](https://quantum.cloud.ibm.com/docs/en/addons/qiskit-addon-sqd/guides/choose-subspace-dimension)
-- [Tutorial: sample-based quantum diagonalization](https://quantum.cloud.ibm.com/docs/en/tutorials/sample-based-quantum-diagonalization)
-- [HPC acceleration](https://quantum.cloud.ibm.com/docs/en/addons/qiskit-addon-sqd/guides/hpc-acceleration)
-- [Tutorial: sample-based Krylov quantum diagonalization of a fermionic lattice model](https://quantum.cloud.ibm.com/docs/en/tutorials/sample-based-krylov-quantum-diagonalization)
+- [SQD overview](https://quantum.cloud.ibm.com/docs/addons/qiskit-addon-sqd)
+- [SQD quickstart](https://quantum.cloud.ibm.com/docs/addons/qiskit-addon-sqd/guides/quickstart)
+- [Bounding the subspace dimension](https://quantum.cloud.ibm.com/docs/addons/qiskit-addon-sqd/guides/choose-subspace-dimension)
+- [Tutorial: sample-based quantum diagonalization](https://quantum.cloud.ibm.com/docs/tutorials/sample-based-quantum-diagonalization)
+- [HPC acceleration](https://quantum.cloud.ibm.com/docs/addons/qiskit-addon-sqd/guides/hpc-acceleration)
+- [Tutorial: sample-based Krylov quantum diagonalization of a fermionic lattice model](https://quantum.cloud.ibm.com/docs/tutorials/sample-based-krylov-quantum-diagonalization)
 - [Trim SQD guide](https://qiskit.github.io/qiskit-addon-sqd/guides/trim_sqd.html)
-- [SQD release notes](https://quantum.cloud.ibm.com/docs/en/api/qiskit-addon-sqd/release-notes)
-- [Tutorial: implicit-solvent calculations with SQD in a managed workflow](https://quantum.cloud.ibm.com/docs/en/tutorials/implicit-solvent-calculations)
+- [SQD release notes](https://quantum.cloud.ibm.com/docs/api/qiskit-addon-sqd/release-notes)
+- [Tutorial: implicit-solvent calculations with SQD in a managed workflow](https://quantum.cloud.ibm.com/docs/tutorials/implicit-solvent-calculations)
 
 ## Multi-product formulas (qiskit-addon-mpf)
 
@@ -280,10 +280,10 @@ A multi-product formula (MPF) combines expectation values from several Trotter c
 
 **Docs:**
 - [MPF documentation home](https://qiskit.github.io/qiskit-addon-mpf/)
-- [Tutorial: multi-product formulas to reduce Trotter error](https://quantum.cloud.ibm.com/docs/en/tutorials/multi-product-formula)
+- [Tutorial: multi-product formulas to reduce Trotter error](https://quantum.cloud.ibm.com/docs/tutorials/multi-product-formula)
 - [How to choose the Trotter steps](https://qiskit.github.io/qiskit-addon-mpf/how_tos/choose_trotter_steps.html)
-- [Static MPFs API](https://quantum.cloud.ibm.com/docs/en/api/qiskit-addon-mpf/static)
-- [Dynamic MPFs API](https://quantum.cloud.ibm.com/docs/en/api/qiskit-addon-mpf/dynamic)
-- [Cost functions API](https://quantum.cloud.ibm.com/docs/en/api/qiskit-addon-mpf/costs)
-- [Backends API](https://quantum.cloud.ibm.com/docs/en/api/qiskit-addon-mpf/backends)
-- [Release notes](https://quantum.cloud.ibm.com/docs/en/api/qiskit-addon-mpf/release-notes)
+- [Static MPFs API](https://quantum.cloud.ibm.com/docs/api/qiskit-addon-mpf/static)
+- [Dynamic MPFs API](https://quantum.cloud.ibm.com/docs/api/qiskit-addon-mpf/dynamic)
+- [Cost functions API](https://quantum.cloud.ibm.com/docs/api/qiskit-addon-mpf/costs)
+- [Backends API](https://quantum.cloud.ibm.com/docs/api/qiskit-addon-mpf/backends)
+- [Release notes](https://quantum.cloud.ibm.com/docs/api/qiskit-addon-mpf/release-notes)

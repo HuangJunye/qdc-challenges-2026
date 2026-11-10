@@ -72,9 +72,9 @@ claude mcp list    # shows each server and whether it connects
   - IBM's MCP page still lists a Qiskit Code Assistant server. That server and its service were discontinued.
 
 **Docs:**
-- [Qiskit MCP Servers](https://quantum.cloud.ibm.com/docs/en/guides/qiskit-mcp-servers)
+- [Qiskit MCP Servers](https://quantum.cloud.ibm.com/docs/guides/qiskit-mcp-servers)
 - [Qiskit MCP Servers on GitHub](https://github.com/Qiskit/mcp-servers)
-- [AI-powered transpiler passes](https://quantum.cloud.ibm.com/docs/en/guides/ai-transpiler-passes)
+- [AI-powered transpiler passes](https://quantum.cloud.ibm.com/docs/guides/ai-transpiler-passes)
 
 ## Qiskit AI skills
 
@@ -107,9 +107,9 @@ The first command adds the repository's plugin marketplace, which is named `qisk
   - Its own checks compile `.py` files, so review edits to notebooks yourself.
 
 **Docs:**
-- [Qiskit AI skills](https://quantum.cloud.ibm.com/docs/en/guides/ai-skills)
-- [Qiskit skills changelog](https://quantum.cloud.ibm.com/docs/en/guides/changelog-qiskit-skills)
-- [Migrate to client-side primitives](https://quantum.cloud.ibm.com/docs/en/guides/migrate-to-client-side-primitives)
+- [Qiskit AI skills](https://quantum.cloud.ibm.com/docs/guides/ai-skills)
+- [Qiskit skills changelog](https://quantum.cloud.ibm.com/docs/guides/changelog-qiskit-skills)
+- [Migrate to client-side primitives](https://quantum.cloud.ibm.com/docs/guides/migrate-to-client-side-primitives)
 
 ## Qiskit Code Assistant models
 
@@ -125,17 +125,17 @@ Each has a GGUF version for Ollama and llama.cpp, for example `ollama run hf.co/
 - **Tags:** family: general; step: develop; runs: local; status: stable; updated: 2026-05
 
 **Docs:**
-- [Qiskit Code Assistant](https://quantum.cloud.ibm.com/docs/en/guides/qiskit-code-assistant)
+- [Qiskit Code Assistant](https://quantum.cloud.ibm.com/docs/guides/qiskit-code-assistant)
 
 ## Documentation for agents
 
 * [`llms.txt`](https://quantum.cloud.ibm.com/llms.txt) indexes the guides, API reference, tutorials and learning pages, each as a Markdown link.
-* Add `.md` to any documentation URL to get the page as Markdown, starting with YAML front matter (`title`, `description`, `source`). Example: [qiskit-mcp-servers.md](https://quantum.cloud.ibm.com/docs/en/guides/qiskit-mcp-servers.md).
-* The [error code reference](https://quantum.cloud.ibm.com/docs/en/errors) explains every IBM Quantum error number; `lookup_error_code_tool` returns one entry.
+* Add `.md` to any documentation URL to get the page as Markdown, starting with YAML front matter (`title`, `description`, `source`). Example: [qiskit-mcp-servers.md](https://quantum.cloud.ibm.com/docs/guides/qiskit-mcp-servers.md).
+* The [error code reference](https://quantum.cloud.ibm.com/docs/errors) explains every IBM Quantum error number; `lookup_error_code_tool` returns one entry.
 
 - **When to use:** your AI assistant needs current IBM documentation, an error code or the Markdown version of a docs page.
 - **Tags:** family: general; step: develop; runs: local; status: stable
 
 **Docs:**
 - [`llms.txt`, the documentation index for agents](https://quantum.cloud.ibm.com/llms.txt)
-- [Error code reference](https://quantum.cloud.ibm.com/docs/en/errors)
+- [Error code reference](https://quantum.cloud.ibm.com/docs/errors)

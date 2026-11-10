@@ -32,9 +32,9 @@ Qiskit's high-performance local simulators. `AerSimulator` offers the `statevect
 - **Related:** [Fake backends and local testing mode](ibm-quantum-compute-client.md#fake-backends-and-local-testing-mode) to run the IBM primitives on an `AerSimulator`; [Exact and tensor-network references](#exact-and-tensor-network-references) for exact and Clifford references.
 
 **Docs:**
-- [Exact and noisy simulation with Qiskit Aer](https://quantum.cloud.ibm.com/docs/en/guides/simulate-with-qiskit-aer)
-- [Efficient simulation of stabilizer circuits with Qiskit Aer primitives](https://quantum.cloud.ibm.com/docs/en/guides/simulate-stabilizer-circuits)
-- [Build noise models](https://quantum.cloud.ibm.com/docs/en/guides/build-noise-models)
+- [Exact and noisy simulation with Qiskit Aer](https://quantum.cloud.ibm.com/docs/guides/simulate-with-qiskit-aer)
+- [Efficient simulation of stabilizer circuits with Qiskit Aer primitives](https://quantum.cloud.ibm.com/docs/guides/simulate-stabilizer-circuits)
+- [Build noise models](https://quantum.cloud.ibm.com/docs/guides/build-noise-models)
 - [Aer documentation](https://qiskit.github.io/qiskit-aer/)
 - [Matrix product state method](https://qiskit.github.io/qiskit-aer/tutorials/7_matrix_product_state_method.html)
 
@@ -55,6 +55,6 @@ For small instances and for checks, Qiskit's reference primitives (`StatevectorS
 - **Related:** [Qiskit Aer](#qiskit-aer) for its `matrix_product_state` and `density_matrix` methods; [Propagated noise absorption and Pauli propagation](qiskit-addons.md#propagated-noise-absorption-and-pauli-propagation) to estimate Pauli expectation values classically.
 
 **Docs:**
-- [Exact simulation with Qiskit SDK primitives](https://quantum.cloud.ibm.com/docs/en/guides/simulate-with-qiskit-sdk-primitives)
-- [Efficient simulation of stabilizer circuits with Qiskit Aer primitives](https://quantum.cloud.ibm.com/docs/en/guides/simulate-stabilizer-circuits)
+- [Exact simulation with Qiskit SDK primitives](https://quantum.cloud.ibm.com/docs/guides/simulate-with-qiskit-sdk-primitives)
+- [Efficient simulation of stabilizer circuits with Qiskit Aer primitives](https://quantum.cloud.ibm.com/docs/guides/simulate-stabilizer-circuits)
 - [quimb documentation](https://quimb.readthedocs.io/)

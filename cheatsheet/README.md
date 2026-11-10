@@ -345,7 +345,7 @@ Test locally, simulate, save your work, grade answers and work with AI assistant
 
 ## By noise-management layer
 
-Grouped as in IBM's [overview of noise management techniques](https://quantum.cloud.ibm.com/docs/en/guides/error-mitigation-overview), with error detection and noise characterization added.
+Grouped as in IBM's [overview of noise management techniques](https://quantum.cloud.ibm.com/docs/guides/error-mitigation-overview), with error detection and noise characterization added.
 
 ### Error suppression
 

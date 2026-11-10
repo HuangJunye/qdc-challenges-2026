@@ -258,9 +258,9 @@ usage_seconds = job.usage()
 - Keep one Qiskit version across your notebooks, graders and shared QPY files (see [Saving circuits with QPY](../reference/qiskit-sdk.md#saving-circuits-with-qpy)).
 
 **Docs:**
-- [Monitor or cancel a job](https://quantum.cloud.ibm.com/docs/en/guides/monitor-job) (`service.jobs` filters, `service.usage`, `job.properties`, why a job stays "In progress")
-- [Workload usage](https://quantum.cloud.ibm.com/docs/en/guides/estimate-job-run-time) (what counts as usage, failed and canceled jobs, the estimation formula)
-- [Sampler inputs and outputs](https://quantum.cloud.ibm.com/docs/en/guides/sampler-input-output) (measurements in Sampler PUB circuits)
-- [Fake provider API](https://quantum.cloud.ibm.com/docs/en/api/qiskit-ibm-runtime/fake-provider) (snapshots and `refresh`)
-- [Error code registry](https://quantum.cloud.ibm.com/docs/en/errors) (1515)
-- [qiskit.utils optional dependency checkers](https://quantum.cloud.ibm.com/docs/en/api/qiskit/utils) (`HAS_GRAPHVIZ`)
+- [Monitor or cancel a job](https://quantum.cloud.ibm.com/docs/guides/monitor-job) (`service.jobs` filters, `service.usage`, `job.properties`, why a job stays "In progress")
+- [Workload usage](https://quantum.cloud.ibm.com/docs/guides/estimate-job-run-time) (what counts as usage, failed and canceled jobs, the estimation formula)
+- [Sampler inputs and outputs](https://quantum.cloud.ibm.com/docs/guides/sampler-input-output) (measurements in Sampler PUB circuits)
+- [Fake provider API](https://quantum.cloud.ibm.com/docs/api/qiskit-ibm-runtime/fake-provider) (snapshots and `refresh`)
+- [Error code registry](https://quantum.cloud.ibm.com/docs/errors) (1515)
+- [qiskit.utils optional dependency checkers](https://quantum.cloud.ibm.com/docs/api/qiskit/utils) (`HAS_GRAPHVIZ`)

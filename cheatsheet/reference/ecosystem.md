@@ -30,7 +30,7 @@ A community repository of reference code for running QAOA at scale. It includes 
 
 **Docs:**
 - [GitHub repository and quick start](https://github.com/qiskit-community/qopt-best-practices#quick-start)
-- [Tutorial: advanced techniques for QAOA](https://quantum.cloud.ibm.com/docs/en/tutorials/advanced-techniques-for-qaoa)
+- [Tutorial: advanced techniques for QAOA](https://quantum.cloud.ibm.com/docs/tutorials/advanced-techniques-for-qaoa)
 
 ## QAOA training pipeline
 
@@ -77,7 +77,7 @@ The quantum-centric chemistry workflow chains three tools. PySCF builds the mole
 **Docs:**
 - [ffsim documentation](https://qiskit-community.github.io/ffsim/)
 - [The LUCJ ansatz](https://qiskit-community.github.io/ffsim/explanations/lucj.html)
-- [Tutorial: sample-based quantum diagonalization of a chemistry Hamiltonian](https://quantum.cloud.ibm.com/docs/en/tutorials/sample-based-quantum-diagonalization)
+- [Tutorial: sample-based quantum diagonalization of a chemistry Hamiltonian](https://quantum.cloud.ibm.com/docs/tutorials/sample-based-quantum-diagonalization)
 - [PySCF](https://pyscf.org/)
 - [Vayesta](https://github.com/BoothGroup/Vayesta)
 
@@ -96,8 +96,8 @@ The Quantum Advantage Tracker collects candidate quantum-advantage experiments, 
 **Docs:**
 - [Quantum Advantage Tracker](https://quantum-advantage-tracker.github.io/)
 - [Tracker circuits and data on GitHub](https://github.com/quantum-advantage-tracker/quantum-advantage-tracker.github.io)
-- [OpenQASM 2 and the Qiskit SDK](https://quantum.cloud.ibm.com/docs/en/guides/interoperate-qiskit-qasm2)
-- [OpenQASM 3 and the Qiskit SDK](https://quantum.cloud.ibm.com/docs/en/guides/interoperate-qiskit-qasm3)
+- [OpenQASM 2 and the Qiskit SDK](https://quantum.cloud.ibm.com/docs/guides/interoperate-qiskit-qasm2)
+- [OpenQASM 3 and the Qiskit SDK](https://quantum.cloud.ibm.com/docs/guides/interoperate-qiskit-qasm3)
 
 ## Layout ranking with mapomatic
 
@@ -129,9 +129,9 @@ Its example notebooks cover layer fidelity on a reported or chosen chain, LF-bas
 **Docs:**
 - [Repository README](https://github.com/qiskit-community/qiskit-device-benchmarking)
 - [Notebooks index](https://github.com/qiskit-community/qiskit-device-benchmarking/tree/main/notebooks)
-- [Tutorial: refresh backend properties with real-time benchmarking](https://quantum.cloud.ibm.com/docs/en/tutorials/refresh-backend-properties-with-real-time-benchmarking)
-- [Tutorial: real-time benchmarking for qubit selection](https://quantum.cloud.ibm.com/docs/en/tutorials/real-time-benchmarking-for-qubit-selection)
-- [View backend details (layer fidelity and EPLG)](https://quantum.cloud.ibm.com/docs/en/guides/qpu-information)
-- [Monitor, calibrate, and benchmark](https://quantum.cloud.ibm.com/docs/en/guides/calibration-jobs)
+- [Tutorial: refresh backend properties with real-time benchmarking](https://quantum.cloud.ibm.com/docs/tutorials/refresh-backend-properties-with-real-time-benchmarking)
+- [Tutorial: real-time benchmarking for qubit selection](https://quantum.cloud.ibm.com/docs/tutorials/real-time-benchmarking-for-qubit-selection)
+- [View backend details (layer fidelity and EPLG)](https://quantum.cloud.ibm.com/docs/guides/qpu-information)
+- [Monitor, calibrate, and benchmark](https://quantum.cloud.ibm.com/docs/guides/calibration-jobs)
 - [LayerFidelity in Qiskit Experiments](https://qiskit-community.github.io/qiskit-experiments/stubs/qiskit_experiments.library.randomized_benchmarking.LayerFidelity.html)
 - [McKay et al., Benchmarking quantum processor performance at scale](https://arxiv.org/abs/2311.05933)

@@ -35,12 +35,12 @@ The IBM quantum processors you can reach, their processor families and native in
 - **Tags:** family: general; step: execute; runs: account; status: stable; updated: 2026-09
 
 **Docs:**
-- [Processor types](https://quantum.cloud.ibm.com/docs/en/guides/processor-types)
-- [View backend details](https://quantum.cloud.ibm.com/docs/en/guides/qpu-information)
-- [IBM Quantum Compute Service changelog](https://quantum.cloud.ibm.com/docs/en/guides/changelog-quantum-compute-service)
-- [Retired QPUs](https://quantum.cloud.ibm.com/docs/en/guides/retired-qpus)
-- [Qubit initialization and repetition delay](https://quantum.cloud.ibm.com/docs/en/guides/repetition-rate-execution)
-- [Fake backends (`qiskit_ibm_runtime.fake_provider`)](https://quantum.cloud.ibm.com/docs/en/api/qiskit-ibm-runtime/fake-provider)
+- [Processor types](https://quantum.cloud.ibm.com/docs/guides/processor-types)
+- [View backend details](https://quantum.cloud.ibm.com/docs/guides/qpu-information)
+- [IBM Quantum Compute Service changelog](https://quantum.cloud.ibm.com/docs/guides/changelog-quantum-compute-service)
+- [Retired QPUs](https://quantum.cloud.ibm.com/docs/guides/retired-qpus)
+- [Qubit initialization and repetition delay](https://quantum.cloud.ibm.com/docs/guides/repetition-rate-execution)
+- [Fake backends (`qiskit_ibm_runtime.fake_provider`)](https://quantum.cloud.ibm.com/docs/api/qiskit-ibm-runtime/fake-provider)
 
 ## Calibration data and layer fidelity
 
@@ -56,5 +56,5 @@ Each backend reports calibration data for its qubits and couplers, and IBM publi
 - **Related:** [Qubit selection and layout](qiskit-sdk.md#qubit-selection-and-layout) uses these numbers to choose qubits; [Device benchmarking](ecosystem.md#device-benchmarking-qiskit-device-benchmarking) re-measures them.
 
 **Docs:**
-- [View backend details](https://quantum.cloud.ibm.com/docs/en/guides/qpu-information)
-- [Tutorial: selecting a 1D chain with the layer-fidelity string](https://quantum.cloud.ibm.com/docs/en/tutorials/long-range-entanglement#use-layer-fidelity-string-for-selecting-1d-chain)
+- [View backend details](https://quantum.cloud.ibm.com/docs/guides/qpu-information)
+- [Tutorial: selecting a 1D chain with the layer-fidelity string](https://quantum.cloud.ibm.com/docs/tutorials/long-range-entanglement#use-layer-fidelity-string-for-selecting-1d-chain)
