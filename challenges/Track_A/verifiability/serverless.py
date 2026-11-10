@@ -48,7 +48,7 @@ FUNCTION_TITLE = "add_checks_remote"
 SOURCE_DIR = Path(__file__).parent / "serverless" / "source_files"
 # The paulice installed remotely. Bump it to the release that matches your local
 # version once it ships; until then remote and local searches can differ.
-PAULICE = "qiskit-paulice==0.2.1"
+PAULICE = "qiskit-paulice==0.3.0"
 POLL_SECONDS = 30
 
 
