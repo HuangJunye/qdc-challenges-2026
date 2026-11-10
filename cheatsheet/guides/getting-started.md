@@ -46,7 +46,7 @@ Use the versions your challenge notebook or its requirements file pins:
 * Some notebooks install unpinned packages from an install cell, so a fresh install takes the newest releases. Where a notebook pins nothing, pin the versions in the table below yourself; a fresh install now resolves Qiskit 2.6.0 and Aer 0.18.0, which the table notes.
 * If an install cell leaves out a package that a later cell imports, install it before you reach that cell.
 * Some notebooks run their heavy computation inside a Managed Workflow and need only a few packages locally.
-* Pins differ between notebooks, so give each one its own virtual environment; the [install guide](https://quantum.cloud.ibm.com/docs/guides/install-qiskit) shows how to create one.
+* Pins differ between notebooks, so give each one its own virtual environment; the [install guide](https://quantum.cloud.ibm.com/docs/en/guides/install-qiskit) shows how to create one.
 
 The table lists the releases this cheat sheet was checked against; the Qiskit and Aer releases of 16 and 20 October 2026 are noted where they differ. It is collected from the package tables at the top of the reference documents, whose owners keep them current, and the grading client's version is in [Grading with qc-grader](#grading-with-qc-grader).
 
@@ -80,10 +80,10 @@ The table lists the releases this cheat sheet was checked against; the Qiskit an
 
 ### Python
 
-Use the version your notebook names. Where it names none, 3.12 is the safest choice: Qiskit 2.5 and `qiskit-ibm-runtime` 0.50 require 3.10 or later, ffsim 0.0.84 and quimb 1.15 require 3.11 or later, `qiskit-ibm-catalog` 0.22 and `qiskit-serverless` 0.38 require 3.12 or later, and mthree has wheels only up to 3.12. Qiskit runs only on CPython and, since 2.0, only on 64-bit platforms; the [install guide](https://quantum.cloud.ibm.com/docs/guides/install-qiskit) points to the PyPI page for the Python versions the newest release supports. PySCF has no Windows support, so the packages that import it (`qiskit-addon-slc`, ffsim and the `fermion` module of `qiskit-addon-sqd`) need Linux, macOS or WSL. `qopt-best-practices` and `qaoa_training_pipeline` install from GitHub, and so do the newer `qiskit-addon-slc` and `qiskit-paulice` APIs noted in the table.
+Use the version your notebook names. Where it names none, 3.12 is the safest choice: Qiskit 2.5 and `qiskit-ibm-runtime` 0.50 require 3.10 or later, ffsim 0.0.84 and quimb 1.15 require 3.11 or later, `qiskit-ibm-catalog` 0.22 and `qiskit-serverless` 0.38 require 3.12 or later, and mthree has wheels only up to 3.12. Qiskit runs only on CPython and, since 2.0, only on 64-bit platforms; the [install guide](https://quantum.cloud.ibm.com/docs/en/guides/install-qiskit) points to the PyPI page for the Python versions the newest release supports. PySCF has no Windows support, so the packages that import it (`qiskit-addon-slc`, ffsim and the `fermion` module of `qiskit-addon-sqd`) need Linux, macOS or WSL. `qopt-best-practices` and `qaoa_training_pipeline` install from GitHub, and so do the newer `qiskit-addon-slc` and `qiskit-paulice` APIs noted in the table.
 
 **Docs:**
-- [Install Qiskit](https://quantum.cloud.ibm.com/docs/guides/install-qiskit)
+- [Install Qiskit](https://quantum.cloud.ibm.com/docs/en/guides/install-qiskit)
 
 ## IBM Quantum account
 
@@ -97,11 +97,11 @@ Save your API key with `QiskitRuntimeService.save_account(token="<API key>", ins
 Save the account under the name your notebook expects, or edit the call. Each instance belongs to a region (`us-east` or `eu-de`). The same API key works in both regions, but the IBM Quantum Platform pages show only the instances of the region you are logged in to, and the region decides where jobs run and where their data is kept. Asking for a QPU your instance cannot reach raises `QiskitBackendNotFoundError: No backend matches the criteria`.
 
 **Docs:**
-- [Set up your IBM Cloud account](https://quantum.cloud.ibm.com/docs/guides/cloud-setup)
-- [Save your login credentials](https://quantum.cloud.ibm.com/docs/guides/save-credentials)
-- [Initialize your account](https://quantum.cloud.ibm.com/docs/guides/initialize-account)
-- [QiskitRuntimeService API](https://quantum.cloud.ibm.com/docs/api/qiskit-ibm-runtime/qiskit-runtime-service)
-- [Managed Workflows](https://quantum.cloud.ibm.com/docs/managed-workflows)
+- [Set up your IBM Cloud account](https://quantum.cloud.ibm.com/docs/en/guides/cloud-setup)
+- [Save your login credentials](https://quantum.cloud.ibm.com/docs/en/guides/save-credentials)
+- [Initialize your account](https://quantum.cloud.ibm.com/docs/en/guides/initialize-account)
+- [QiskitRuntimeService API](https://quantum.cloud.ibm.com/docs/en/api/qiskit-ibm-runtime/qiskit-runtime-service)
+- [Managed Workflows](https://quantum.cloud.ibm.com/docs/en/managed-workflows)
 
 ## Setting up an AI assistant
 

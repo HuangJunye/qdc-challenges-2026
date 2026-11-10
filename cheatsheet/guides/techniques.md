@@ -32,7 +32,7 @@ Choose a mitigation method by what your result is and what you can afford. Reado
 - **Tags:** family: general; step: post-process; noise: detection, mitigation-expval, mitigation-sampling; runs: local; status: stable
 
 **Docs:**
-- [Overview of noise management techniques](https://quantum.cloud.ibm.com/docs/guides/error-mitigation-overview)
+- [Overview of noise management techniques](https://quantum.cloud.ibm.com/docs/en/guides/error-mitigation-overview)
 
 ## The Iceberg code
 
@@ -51,8 +51,8 @@ To use it, prepare the encoded state, run the circuit on the logical qubits and 
 **Docs:**
 - [Paper: Protecting expressive circuits with a quantum error detection code (Self, Benedetti, Amaro; Nature Physics 20, 219–224, 2024)](https://arxiv.org/abs/2211.06703)
 - [IBM Quantum Learning: error detection and post-selection (Error correction I)](https://quantum.cloud.ibm.com/learning/courses/tools-for-quantum-advantage/error-correction-i)
-- [BitArray API](https://quantum.cloud.ibm.com/docs/api/qiskit/qiskit.primitives.BitArray)
-- [SamplerPubResult API](https://quantum.cloud.ibm.com/docs/api/qiskit/qiskit.primitives.SamplerPubResult)
+- [BitArray API](https://quantum.cloud.ibm.com/docs/en/api/qiskit/qiskit.primitives.BitArray)
+- [SamplerPubResult API](https://quantum.cloud.ibm.com/docs/en/api/qiskit/qiskit.primitives.SamplerPubResult)
 
 ## CVaR of sampled results
 
@@ -68,7 +68,7 @@ For optimization problems, the conditional value at risk CVaR_α of a set of sho
   - This CVaR averages the best shots of one circuit. A CVaR limit in a risk-constrained problem is a property of each candidate solution, computed from that solution's own loss distribution; evaluate it per bitstring, not over the shots.
 
 **Docs:**
-- [Tutorial: advanced techniques for QAOA (CVaR cost function)](https://quantum.cloud.ibm.com/docs/tutorials/advanced-techniques-for-qaoa)
+- [Tutorial: advanced techniques for QAOA (CVaR cost function)](https://quantum.cloud.ibm.com/docs/en/tutorials/advanced-techniques-for-qaoa)
 - [Barkoutsos et al., Improving variational quantum optimization using CVaR](https://arxiv.org/abs/1907.04769)
 - [Barron et al., Provable bounds for noise-free expectation values computed from noisy samples](https://arxiv.org/abs/2312.00733)
 

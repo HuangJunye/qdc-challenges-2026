@@ -30,9 +30,9 @@ The circuit library holds the standard gates and building blocks, such as `Pauli
 - **Related:** [Fractional gates](ibm-quantum-compute-client.md#fractional-gates) run `RZZ` and `RX` rotations as single native gates on Heron QPUs.
 
 **Docs:**
-- [Synthesize unitary operations](https://quantum.cloud.ibm.com/docs/guides/synthesize-unitary-operators)
-- [Circuit library overview](https://quantum.cloud.ibm.com/docs/guides/circuit-library)
-- [Circuit library API reference](https://quantum.cloud.ibm.com/docs/api/qiskit/circuit_library)
+- [Synthesize unitary operations](https://quantum.cloud.ibm.com/docs/en/guides/synthesize-unitary-operators)
+- [Circuit library overview](https://quantum.cloud.ibm.com/docs/en/guides/circuit-library)
+- [Circuit library API reference](https://quantum.cloud.ibm.com/docs/en/api/qiskit/circuit_library)
 
 ## Transpiler: preset and custom pass managers
 
@@ -48,14 +48,14 @@ Every circuit must be rewritten into the target's instruction set architecture (
 - **Related:** [Calibrated instructions](ibm-quantum-compute-client.md#specially-calibrated-instructions-and-calibration-sets) for the runtime's own transpiler passes, [Dynamical decoupling passes](#dynamical-decoupling-passes) for the scheduling and padding passes.
 
 **Docs:**
-- [Introduction to transpilation](https://quantum.cloud.ibm.com/docs/guides/transpile)
-- [Install and use transpiler plugins](https://quantum.cloud.ibm.com/docs/guides/transpiler-plugins)
-- [Transpile with pass managers](https://quantum.cloud.ibm.com/docs/guides/transpile-with-pass-managers)
-- [Configure the preset pass managers](https://quantum.cloud.ibm.com/docs/guides/defaults-and-configuration-options)
-- [Write a custom transpiler pass](https://quantum.cloud.ibm.com/docs/guides/custom-transpiler-pass)
-- [Transpiler passes index](https://quantum.cloud.ibm.com/docs/api/qiskit/transpiler_passes)
-- [AI-powered transpiler passes (beta)](https://quantum.cloud.ibm.com/docs/guides/ai-transpiler-passes)
-- Release notes: [Qiskit 2.3](https://quantum.cloud.ibm.com/docs/api/qiskit/release-notes/2.3), [2.4](https://quantum.cloud.ibm.com/docs/api/qiskit/release-notes/2.4), [2.5](https://quantum.cloud.ibm.com/docs/api/qiskit/release-notes/2.5)
+- [Introduction to transpilation](https://quantum.cloud.ibm.com/docs/en/guides/transpile)
+- [Install and use transpiler plugins](https://quantum.cloud.ibm.com/docs/en/guides/transpiler-plugins)
+- [Transpile with pass managers](https://quantum.cloud.ibm.com/docs/en/guides/transpile-with-pass-managers)
+- [Configure the preset pass managers](https://quantum.cloud.ibm.com/docs/en/guides/defaults-and-configuration-options)
+- [Write a custom transpiler pass](https://quantum.cloud.ibm.com/docs/en/guides/custom-transpiler-pass)
+- [Transpiler passes index](https://quantum.cloud.ibm.com/docs/en/api/qiskit/transpiler_passes)
+- [AI-powered transpiler passes (beta)](https://quantum.cloud.ibm.com/docs/en/guides/ai-transpiler-passes)
+- Release notes: [Qiskit 2.3](https://quantum.cloud.ibm.com/docs/en/api/qiskit/release-notes/2.3), [2.4](https://quantum.cloud.ibm.com/docs/en/api/qiskit/release-notes/2.4), [2.5](https://quantum.cloud.ibm.com/docs/en/api/qiskit/release-notes/2.5)
 
 ## AI-powered transpiler passes (qiskit-ibm-transpiler)
 
@@ -71,14 +71,14 @@ Every circuit must be rewritten into the target's instruction set architecture (
   - Block sizes are capped: nine qubits for Clifford and linear-function blocks, six for Pauli networks, and 27, 33 or 65 for permutations. A block must lie on a connected subgraph of the coupling map, or the pass warns and leaves it unchanged.
 
 **Docs:**
-- [AI-powered transpiler passes](https://quantum.cloud.ibm.com/docs/guides/ai-transpiler-passes)
-- [qiskit-ibm-transpiler API reference](https://quantum.cloud.ibm.com/docs/api/qiskit-ibm-transpiler)
-- [AIRouting API](https://quantum.cloud.ibm.com/docs/api/qiskit-ibm-transpiler/ai-ai-routing)
-- [TranspilerService API](https://quantum.cloud.ibm.com/docs/api/qiskit-ibm-transpiler/transpiler-service-transpiler-service)
-- [Release notes](https://quantum.cloud.ibm.com/docs/api/qiskit-ibm-transpiler/release-notes)
+- [AI-powered transpiler passes](https://quantum.cloud.ibm.com/docs/en/guides/ai-transpiler-passes)
+- [qiskit-ibm-transpiler API reference](https://quantum.cloud.ibm.com/docs/en/api/qiskit-ibm-transpiler)
+- [AIRouting API](https://quantum.cloud.ibm.com/docs/en/api/qiskit-ibm-transpiler/ai-ai-routing)
+- [TranspilerService API](https://quantum.cloud.ibm.com/docs/en/api/qiskit-ibm-transpiler/transpiler-service-transpiler-service)
+- [Release notes](https://quantum.cloud.ibm.com/docs/en/api/qiskit-ibm-transpiler/release-notes)
 - [README on GitHub](https://github.com/Qiskit/qiskit-ibm-transpiler)
 - [Issue #250: ImportError with Qiskit 2.5](https://github.com/Qiskit/qiskit-ibm-transpiler/issues/250)
-- [Tutorial: compilation methods for Hamiltonian simulation circuits](https://quantum.cloud.ibm.com/docs/tutorials/compilation-methods-for-hamiltonian-simulation-circuits)
+- [Tutorial: compilation methods for Hamiltonian simulation circuits](https://quantum.cloud.ibm.com/docs/en/tutorials/compilation-methods-for-hamiltonian-simulation-circuits)
 
 ## Swap strategies for commuting gates
 
@@ -91,9 +91,9 @@ A QAOA cost layer is made of commuting two-qubit gates, so it can be routed with
 - **Related:** [Quantum optimization best practices (qopt-best-practices)](ecosystem.md#quantum-optimization-best-practices-qopt-best-practices) packages swap-strategy routing for QAOA.
 
 **Docs:**
-- [Commuting2qGateRouter (documents SwapStrategy)](https://quantum.cloud.ibm.com/docs/api/qiskit/qiskit.transpiler.passes.Commuting2qGateRouter)
-- [ElidePermutations](https://quantum.cloud.ibm.com/docs/api/qiskit/qiskit.transpiler.passes.ElidePermutations)
-- [Tutorial: advanced techniques for QAOA](https://quantum.cloud.ibm.com/docs/tutorials/advanced-techniques-for-qaoa)
+- [Commuting2qGateRouter (documents SwapStrategy)](https://quantum.cloud.ibm.com/docs/en/api/qiskit/qiskit.transpiler.passes.Commuting2qGateRouter)
+- [ElidePermutations](https://quantum.cloud.ibm.com/docs/en/api/qiskit/qiskit.transpiler.passes.ElidePermutations)
+- [Tutorial: advanced techniques for QAOA](https://quantum.cloud.ibm.com/docs/en/tutorials/advanced-techniques-for-qaoa)
 
 ## Qubit selection and layout
 
@@ -111,10 +111,10 @@ Which physical qubits you use matters as much as how you compile.
 - **Related:** [qopt-best-practices](ecosystem.md#quantum-optimization-best-practices-qopt-best-practices) for `BackendEvaluator`, [Specially calibrated instructions and calibration sets](ibm-quantum-compute-client.md#specially-calibrated-instructions-and-calibration-sets) for calibration sets, whose instruction properties feed `backend.target`.
 
 **Docs:**
-- [plot_error_map](https://quantum.cloud.ibm.com/docs/api/qiskit/qiskit.visualization.plot_error_map)
-- [VF2PostLayout](https://quantum.cloud.ibm.com/docs/api/qiskit/qiskit.transpiler.passes.VF2PostLayout)
-- [Tutorial: refresh backend properties with real-time benchmarking](https://quantum.cloud.ibm.com/docs/tutorials/refresh-backend-properties-with-real-time-benchmarking)
-- [Tutorial: real-time benchmarking for qubit selection](https://quantum.cloud.ibm.com/docs/tutorials/real-time-benchmarking-for-qubit-selection)
+- [plot_error_map](https://quantum.cloud.ibm.com/docs/en/api/qiskit/qiskit.visualization.plot_error_map)
+- [VF2PostLayout](https://quantum.cloud.ibm.com/docs/en/api/qiskit/qiskit.transpiler.passes.VF2PostLayout)
+- [Tutorial: refresh backend properties with real-time benchmarking](https://quantum.cloud.ibm.com/docs/en/tutorials/refresh-backend-properties-with-real-time-benchmarking)
+- [Tutorial: real-time benchmarking for qubit selection](https://quantum.cloud.ibm.com/docs/en/tutorials/real-time-benchmarking-for-qubit-selection)
 
 ## Dynamical decoupling passes
 
@@ -130,8 +130,8 @@ Dynamical decoupling (DD) fills idle periods on qubits with pulse sequences that
 - **Related:** [Dynamic circuits and resets](ibm-quantum-compute-client.md#dynamic-circuits-and-resets), [Dynamical decoupling options](ibm-quantum-compute-client.md#dynamical-decoupling-options)
 
 **Docs:**
-- [Create a pass manager for dynamical decoupling](https://quantum.cloud.ibm.com/docs/guides/dynamical-decoupling-pass-manager)
-- [PadDynamicalDecoupling](https://quantum.cloud.ibm.com/docs/api/qiskit/qiskit.transpiler.passes.PadDynamicalDecoupling)
+- [Create a pass manager for dynamical decoupling](https://quantum.cloud.ibm.com/docs/en/guides/dynamical-decoupling-pass-manager)
+- [PadDynamicalDecoupling](https://quantum.cloud.ibm.com/docs/en/api/qiskit/qiskit.transpiler.passes.PadDynamicalDecoupling)
 
 ## Saving circuits with QPY
 
@@ -145,5 +145,5 @@ Save circuits with QPY. QPY is backward compatible but not forward compatible: `
 - **Related:** [Saving results and job IDs](ibm-quantum-compute-client.md#saving-results-and-job-ids)
 
 **Docs:**
-- [Save circuits to disk (QPY)](https://quantum.cloud.ibm.com/docs/guides/save-circuits)
-- [QPY API and format version history](https://quantum.cloud.ibm.com/docs/api/qiskit/qpy)
+- [Save circuits to disk (QPY)](https://quantum.cloud.ibm.com/docs/en/guides/save-circuits)
+- [QPY API and format version history](https://quantum.cloud.ibm.com/docs/en/api/qiskit/qpy)

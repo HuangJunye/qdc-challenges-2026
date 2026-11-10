@@ -8,7 +8,7 @@ last_verified: 2026-10-20
 
 # Troubleshooting
 
-Find the message or symptom, then apply the fix. Numbered errors come from IBM Quantum. The [error code reference](https://quantum.cloud.ibm.com/docs/errors) explains every code, and the Qiskit Docs MCP server looks codes up by number (see [MCP servers](../reference/ai-tooling.md#qiskit-mcp-servers)).
+Find the message or symptom, then apply the fix. Numbered errors come from IBM Quantum. The [error code reference](https://quantum.cloud.ibm.com/docs/en/errors) explains every code, and the Qiskit Docs MCP server looks codes up by number (see [MCP servers](../reference/ai-tooling.md#qiskit-mcp-servers)).
 
 ## Installing and importing
 

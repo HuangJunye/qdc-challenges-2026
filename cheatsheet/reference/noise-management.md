@@ -40,11 +40,11 @@ Samplomatic lets you state in the circuit itself how it should be randomized. Yo
 - **Related:** [Executor and QuantumProgram](ibm-quantum-compute-client.md#executor-and-quantumprogram) runs the samplex items; [Twirling options in the primitives](ibm-quantum-compute-client.md#twirling-options-in-the-primitives) gives the same twirling groups without editing the circuit.
 
 **Docs:**
-- [Samplomatic documentation](https://quantum.cloud.ibm.com/docs/addons/samplomatic)
-- [Transpiler guide (boxing pass manager)](https://quantum.cloud.ibm.com/docs/addons/samplomatic/guides/transpiler)
-- [Samplex inputs and outputs](https://quantum.cloud.ibm.com/docs/addons/samplomatic/guides/samplex-io)
-- [Dressed boxes](https://quantum.cloud.ibm.com/docs/addons/samplomatic/guides/dressed-boxes)
-- [API reference](https://quantum.cloud.ibm.com/docs/api/samplomatic/index)
+- [Samplomatic documentation](https://quantum.cloud.ibm.com/docs/en/addons/samplomatic)
+- [Transpiler guide (boxing pass manager)](https://quantum.cloud.ibm.com/docs/en/addons/samplomatic/guides/transpiler)
+- [Samplex inputs and outputs](https://quantum.cloud.ibm.com/docs/en/addons/samplomatic/guides/samplex-io)
+- [Dressed boxes](https://quantum.cloud.ibm.com/docs/en/addons/samplomatic/guides/dressed-boxes)
+- [API reference](https://quantum.cloud.ibm.com/docs/en/api/samplomatic/index)
 - [Changelog](https://github.com/Qiskit/samplomatic/blob/main/CHANGELOG.md)
 
 ## Post-selection on non-Markovian error checks
@@ -64,11 +64,11 @@ Heron devices show non-Markovian noise that learned noise models miss. A cheap r
   - `compute_mask` takes a dict of register name to boolean array, which is what `Executor` results already are; the mask has the arrays' shape without the last (clbit) axis. Requesting `mode="pre"` on a circuit without pre-circuit checks raises `ValueError`.
 
 **Docs:**
-- [Guide: post-selection with non-Markovian error checks](https://quantum.cloud.ibm.com/docs/addons/qiskit-mitigation/guides/postselection-with-non-markovian-error-checks)
-- [qiskit-mitigation postselection API](https://quantum.cloud.ibm.com/docs/api/qiskit-mitigation/postselection)
-- [qiskit-addon-utils bit_flip_checks API](https://quantum.cloud.ibm.com/docs/api/qiskit-addon-utils/noise-management-bit-flip-checks)
-- [qiskit-addon-utils post-selection transpiler passes](https://quantum.cloud.ibm.com/docs/api/qiskit-addon-utils/noise-management-post-selection-transpiler-passes)
-- [Tutorial: PEC with shaded light cones (checks on a built template)](https://quantum.cloud.ibm.com/docs/tutorials/pec-with-shaded-lightcones)
+- [Guide: post-selection with non-Markovian error checks](https://quantum.cloud.ibm.com/docs/en/addons/qiskit-mitigation/guides/postselection-with-non-markovian-error-checks)
+- [qiskit-mitigation postselection API](https://quantum.cloud.ibm.com/docs/en/api/qiskit-mitigation/postselection)
+- [qiskit-addon-utils bit_flip_checks API](https://quantum.cloud.ibm.com/docs/en/api/qiskit-addon-utils/noise-management-bit-flip-checks)
+- [qiskit-addon-utils post-selection transpiler passes](https://quantum.cloud.ibm.com/docs/en/api/qiskit-addon-utils/noise-management-post-selection-transpiler-passes)
+- [Tutorial: PEC with shaded light cones (checks on a built template)](https://quantum.cloud.ibm.com/docs/en/tutorials/pec-with-shaded-lightcones)
 
 ## qiskit-mitigation: TREX, ZNE, PEA and PEC
 
@@ -93,15 +93,15 @@ A new IBM package of error-mitigation building blocks for the directed execution
   - PEC scales the number of randomizations by about γ² by default, capped by `max_sampling_overhead` (default 100). When γ² exceeds that cap, `noise_gain="auto"` keeps a fraction 1 − log(max_overhead)/log(γ²) of the noise instead of canceling all of it. Check `task.gamma` and `task.gamma**2` after `prepare` and before you execute, and set `scale_randomizations_by_gamma=False` to choose the count yourself. The injected noise is sampled once per randomization, so PEC and PEA want many randomizations with few shots each.
 
 **Docs:**
-- [Qiskit Mitigation overview](https://quantum.cloud.ibm.com/docs/addons/qiskit-mitigation)
-- [Guide: ZNE by gate folding with custom extrapolation](https://quantum.cloud.ibm.com/docs/addons/qiskit-mitigation/guides/gate-folding-with-custom-extrapolation)
-- [Guide: PEA with noise learning](https://quantum.cloud.ibm.com/docs/addons/qiskit-mitigation/guides/pea-with-noise-learning)
-- [Guide: PEC with TREX](https://quantum.cloud.ibm.com/docs/addons/qiskit-mitigation/guides/pec-with-trex)
+- [Qiskit Mitigation overview](https://quantum.cloud.ibm.com/docs/en/addons/qiskit-mitigation)
+- [Guide: ZNE by gate folding with custom extrapolation](https://quantum.cloud.ibm.com/docs/en/addons/qiskit-mitigation/guides/gate-folding-with-custom-extrapolation)
+- [Guide: PEA with noise learning](https://quantum.cloud.ibm.com/docs/en/addons/qiskit-mitigation/guides/pea-with-noise-learning)
+- [Guide: PEC with TREX](https://quantum.cloud.ibm.com/docs/en/addons/qiskit-mitigation/guides/pec-with-trex)
 - [Best practices for digital zero-noise extrapolation (arXiv:2307.05203)](https://arxiv.org/abs/2307.05203)
-- [API reference](https://quantum.cloud.ibm.com/docs/api/qiskit-mitigation)
-- [ZNE API (GateFolding, PEA)](https://quantum.cloud.ibm.com/docs/api/qiskit-mitigation/zne)
-- [PEC API](https://quantum.cloud.ibm.com/docs/api/qiskit-mitigation/pec)
-- [Error mitigation and suppression techniques](https://quantum.cloud.ibm.com/docs/guides/error-mitigation-and-suppression-techniques)
+- [API reference](https://quantum.cloud.ibm.com/docs/en/api/qiskit-mitigation)
+- [ZNE API (GateFolding, PEA)](https://quantum.cloud.ibm.com/docs/en/api/qiskit-mitigation/zne)
+- [PEC API](https://quantum.cloud.ibm.com/docs/en/api/qiskit-mitigation/pec)
+- [Error mitigation and suppression techniques](https://quantum.cloud.ibm.com/docs/en/guides/error-mitigation-and-suppression-techniques)
 
 ## Custom noise learning (qiskit-noise-learning)
 
@@ -119,4 +119,4 @@ A new IBM package of error-mitigation building blocks for the directed execution
 - **Related:** [NoiseLearnerV3](ibm-quantum-compute-client.md#noiselearnerv3) learns the noise models that [qiskit-mitigation](#qiskit-mitigation-trex-zne-pea-and-pec) consumes.
 
 **Docs:**
-- [Qiskit noise learning (alpha)](https://quantum.cloud.ibm.com/docs/addons/qiskit-noise-learning)
+- [Qiskit noise learning (alpha)](https://quantum.cloud.ibm.com/docs/en/addons/qiskit-noise-learning)

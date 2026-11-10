@@ -8,7 +8,7 @@ last_verified: 2026-11-02
 
 # Managed Workflows
 
-Managed Workflows run your own Python program on IBM-managed classical compute, so long classical steps such as searches, reference simulations and chemistry pre- and post-processing do not tie up your laptop and keep running after you close it. Ready-made partner functions are covered on the [IBM Quantum Functions Catalog](ibm-quantum-functions-catalog.md) page. For additional information, look at the [Managed Workflows](https://quantum.cloud.ibm.com/docs/managed-workflows) documentation pages.
+Managed Workflows run your own Python program on IBM-managed classical compute, so long classical steps such as searches, reference simulations and chemistry pre- and post-processing do not tie up your laptop and keep running after you close it. Ready-made partner functions are covered on the [IBM Quantum Functions Catalog](ibm-quantum-functions-catalog.md) page. For additional information, look at the [Managed Workflows](https://quantum.cloud.ibm.com/docs/en/managed-workflows) documentation pages.
 
 * **Access:** Premium, Flex and On-Prem plan users; the feature is experimental. QPU jobs that a workflow submits use your instance's QPU time like any other job.
 * **Packages:** `pip install qiskit-ibm-catalog qiskit-serverless` (Python 3.12 or later). Versions checked: `qiskit-ibm-catalog` 0.22.0 and `qiskit-serverless` 0.38.0. Catalog 0.22 pins `qiskit-serverless~=0.38.0`. On the client you define a workflow with `ManagedWorkflow` and upload, run and manage it with `ManagedWorkflowClient`, both from `qiskit_ibm_catalog`; inside the program, `qiskit_serverless` reads the arguments, provides a runtime service for QPU jobs and saves the result.
@@ -66,13 +66,13 @@ result = job.result()                    # waits for the end; the dict passed to
 ```
 
 **Docs:**
-- [Install](https://quantum.cloud.ibm.com/docs/managed-workflows/install-managed-workflows)
-- [Deploy your first managed workflow](https://quantum.cloud.ibm.com/docs/managed-workflows/deploy-first-managed-workflow)
-- [Define inputs and outputs](https://quantum.cloud.ibm.com/docs/managed-workflows/managed-workflow-inputs-and-outputs)
-- [Run quantum jobs from a workflow](https://quantum.cloud.ibm.com/docs/managed-workflows/manage-quantum-classical-workflows)
-- [Run a managed workflow](https://quantum.cloud.ibm.com/docs/managed-workflows/run-managed-workflow)
-- [Write logs and handle errors](https://quantum.cloud.ibm.com/docs/managed-workflows/managed-workflow-logs-and-errors)
-- [Run a parameter sweep](https://quantum.cloud.ibm.com/docs/managed-workflows/run-parameter-sweep)
+- [Install](https://quantum.cloud.ibm.com/docs/en/managed-workflows/install-managed-workflows)
+- [Deploy your first managed workflow](https://quantum.cloud.ibm.com/docs/en/managed-workflows/deploy-first-managed-workflow)
+- [Define inputs and outputs](https://quantum.cloud.ibm.com/docs/en/managed-workflows/managed-workflow-inputs-and-outputs)
+- [Run quantum jobs from a workflow](https://quantum.cloud.ibm.com/docs/en/managed-workflows/manage-quantum-classical-workflows)
+- [Run a managed workflow](https://quantum.cloud.ibm.com/docs/en/managed-workflows/run-managed-workflow)
+- [Write logs and handle errors](https://quantum.cloud.ibm.com/docs/en/managed-workflows/managed-workflow-logs-and-errors)
+- [Run a parameter sweep](https://quantum.cloud.ibm.com/docs/en/managed-workflows/run-parameter-sweep)
 
 ## Fleets runner and compute profiles
 
@@ -124,7 +124,7 @@ print(get_function_size(), get_compute_profile())   # "M" "24x120x1l40s"
 ```
 
 **Docs:**
-- [Choose a compute profile](https://quantum.cloud.ibm.com/docs/managed-workflows/managed-workflow-compute-profiles)
+- [Choose a compute profile](https://quantum.cloud.ibm.com/docs/en/managed-workflows/managed-workflow-compute-profiles)
 
 ## Data and files
 
@@ -138,7 +138,7 @@ Arguments go into `run()`; large data goes in as files. `client.file_upload(file
   - The file store is flat, without subdirectories, and checks each file's type: archives (`.tar`, `.tar.gz`) are accepted, while `.h5` and `.pkl` files uploaded directly are rejected. Wrap files in a `.tar.gz` and extract it inside the program after `file_download()`.
 
 **Docs:**
-- [Manage files across runs](https://quantum.cloud.ibm.com/docs/managed-workflows/manage-files-across-managed-workflows)
+- [Manage files across runs](https://quantum.cloud.ibm.com/docs/en/managed-workflows/manage-files-across-managed-workflows)
 
 ## External dependencies
 
@@ -174,7 +174,7 @@ print(client.dependencies_versions())    # ["ffsim==0.0.70", "h5py==3.16.0", ...
 ```
 
 **Docs:**
-- [Declare dependencies](https://quantum.cloud.ibm.com/docs/managed-workflows/managed-workflow-dependencies)
+- [Declare dependencies](https://quantum.cloud.ibm.com/docs/en/managed-workflows/managed-workflow-dependencies)
 
 ## Bring your own wheels
 
@@ -213,7 +213,7 @@ save_result({"mypkg_version": mypkg.__version__})
 ```
 
 **Docs:**
-- [Declare dependencies: add your own packages](https://quantum.cloud.ibm.com/docs/managed-workflows/managed-workflow-dependencies#add-your-own-packages)
+- [Declare dependencies: add your own packages](https://quantum.cloud.ibm.com/docs/en/managed-workflows/managed-workflow-dependencies#add-your-own-packages)
 
 ## Qiskit patterns in a workflow
 
@@ -231,7 +231,7 @@ A Qiskit pattern breaks a quantum computation into four steps: map the problem t
 - **Watch out:** `job.result()` metadata can report CPU, GPU and QPU seconds per stage under `resource_usage` if your program adds it to the dict it passes to `save_result()`.
 
 **Docs:**
-- [Run quantum jobs from a workflow: report progress with update_status()](https://quantum.cloud.ibm.com/docs/managed-workflows/manage-quantum-classical-workflows#report-progress-with-update_status)
+- [Run quantum jobs from a workflow: report progress with update_status()](https://quantum.cloud.ibm.com/docs/en/managed-workflows/manage-quantum-classical-workflows#report-progress-with-update_status)
 
 ## Qiskit Function templates
 
@@ -251,6 +251,6 @@ Templates are open-source workflows from [qiskit-function-templates on GitHub](h
 - **Watch out:** check each template's upload code for `runner="fleets"` (SKQD Fleets has it) and its imports against the [preinstalled packages](#external-dependencies) before you deploy it.
 
 **Docs:**
-- [Hamiltonian simulation with AQC-Tensor](https://quantum.cloud.ibm.com/docs/managed-workflows/function-template-hamiltonian-simulation)
-- [Chemistry with an implicit solvent model](https://quantum.cloud.ibm.com/docs/managed-workflows/function-template-chemistry-workflow)
-- [AQC + Trotter Hamiltonian dynamics](https://quantum.cloud.ibm.com/docs/managed-workflows/function-template-aqc-trotter)
+- [Hamiltonian simulation with AQC-Tensor](https://quantum.cloud.ibm.com/docs/en/managed-workflows/function-template-hamiltonian-simulation)
+- [Chemistry with an implicit solvent model](https://quantum.cloud.ibm.com/docs/en/managed-workflows/function-template-chemistry-workflow)
+- [AQC + Trotter Hamiltonian dynamics](https://quantum.cloud.ibm.com/docs/en/managed-workflows/function-template-aqc-trotter)

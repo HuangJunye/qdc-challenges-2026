@@ -479,7 +479,7 @@ def render_views(docs, tax):
 
     # By noise-management layer
     out = ["## By noise-management layer", "",
-           "Grouped as in IBM's [overview of noise management techniques](https://quantum.cloud.ibm.com/docs/guides/error-mitigation-overview), "
+           "Grouped as in IBM's [overview of noise management techniques](https://quantum.cloud.ibm.com/docs/en/guides/error-mitigation-overview), "
            "with error detection and noise characterization added.", ""]
     for n in tax["noise"]:
         members = [e for e in entries if n["id"] in e["tags"].get("noise", [])]
