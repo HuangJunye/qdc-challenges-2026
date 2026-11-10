@@ -2,6 +2,8 @@
 
 Please complete these steps before the challenges begin.
 
+> **Note:** Windows is not fully supported. `mthree`, `ffsim` and `pyscf` do not have Windows wheels, so they are skipped on Windows and the Proteasome challenge cannot run there natively. Windows users should work under [WSL](https://learn.microsoft.com/windows/wsl/install), or on macOS / Linux.
+
 ## Step 0: Create your IBM Quantum account
 
 [Create an IBM Quantum account](https://quantum.cloud.ibm.com/signin) if you haven't already. **Sign up using the *same email address* you registered with for this event.**

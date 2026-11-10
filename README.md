@@ -76,16 +76,16 @@ Participants will have until Friday, November 13, at 13:00 ET to submit their so
 The challenge notebooks can be found in their respective Track folders. See below for a summary of the topics covered by each challenge:
 
 ### [Track A](./challenges/Track_A) (Location TBD)
-- Dynamics: [Resolve Prethermal Floquet Structure](./challenges/Track_A/floquet-dynamics/floquet_challenge.ipynb)
+- Quantum dynamics: [Resolve Prethermal Floquet Structure](./challenges/Track_A/floquet-dynamics/floquet_challenge.ipynb)
 - System properties: [Proteasome Challenge: A Guided Laboratory in Molecular Electronic Structure](./challenges/Track_A/proteasome-inhibitor/proteasome_challenge.ipynb)
 - Optimization: [Trade Circuits for Shots](./challenges/Track_A/fourier-LCU-QAOA/fourier_LCU_QAOA_challenge.ipynb)
-- QEC methods: [Sampling Hard Circuits with Verifiably High Fidelity](./challenges/Track_A/verifiability/verifiability_challenge.ipynb)
+- Error detection: [Sampling Hard Circuits with Verifiably High Fidelity](./challenges/Track_A/verifiability/verifiability_challenge.ipynb)
 
 ### [Track B](./challenges/Track_B) (Location TBD)
-- Dynamics: [Estimate a 56-Qubit Operator Loschmidt Echo (OLE)](./challenges/Track_B/ole/operator_loschmidt_echo_challenge.ipynb)
+- Quantum dynamics: [Estimate a 56-Qubit Operator Loschmidt Echo (OLE)](./challenges/Track_B/ole/operator_loschmidt_echo_challenge.ipynb)
 - System properties: [Preparing Thermal States of Frustrated Quantum Spin Systems](./challenges/Track_B/thermal-states/thermal_states_challenge.ipynb)
 - Optimization: [Quantum Approximate Multi-Objective Optimization for Constrained Optimization Problems (C-QAMOO)](./challenges/Track_B/qamoo/qamoo_challenge.ipynb)
-- QEC methods: [Realizing Error Suppression in Partially Fault-Tolerant Quantum Simulations with the Iceberg Code](./challenges/Track_B/ising-with-iceberg/ising_challenge.ipynb)
+- Error detection: [Realizing Error Suppression in Partially Fault-Tolerant Quantum Simulations with the Iceberg Code](./challenges/Track_B/ising-with-iceberg/ising_challenge.ipynb)
 
 ### Repository structure
 
@@ -95,6 +95,7 @@ qdc-challenges-2026/
 ├── INSTALL.md                # setup guide
 ├── contest_rules.md
 ├── requirements.txt          # shared dependencies for all challenges
+├── cheatsheet/               # tools, techniques and troubleshooting guides
 └── challenges/
     ├── Track_A/
     │   ├── floquet-dynamics/
@@ -115,4 +116,4 @@ Each challenge folder contains its `*_challenge.ipynb` notebook together with th
 
 The seminars and challenges at QDC are designed to cover a broad range of advanced topics featuring Qiskit tools and capabilities. While participants are not expected to have a deep understanding of everything that will be covered we do recommend familiarizing yourself with the basics before attending the event.
 
-Each challenge notebook opens with its background and references. For general material on the tools used, see the [IBM Quantum documentation](https://quantum.cloud.ibm.com/docs) and [IBM Quantum Learning](https://quantum.cloud.ibm.com/learning).
+See the [cheat sheet](./cheatsheet/README.md) for more information and links to various resources which may help get you started. It maps common tasks to the relevant tools, with guides on [getting started](./cheatsheet/guides/getting-started.md), [techniques](./cheatsheet/guides/techniques.md), [testing and tips](./cheatsheet/guides/testing-and-tips.md) and [troubleshooting](./cheatsheet/guides/troubleshooting.md).
