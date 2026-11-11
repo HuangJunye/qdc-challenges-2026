@@ -75,17 +75,19 @@ Participants will have until Friday, November 13, at 13:00 ET to submit their so
 
 The challenge notebooks can be found in their respective Track folders. See below for a summary of the topics covered by each challenge:
 
-### [Track A](./challenges/Track_A) (Location TBD)
+### [Track A](./challenges/Track_A)
 - Quantum dynamics: [Resolve Prethermal Floquet Structure](./challenges/Track_A/floquet-dynamics/floquet_challenge.ipynb)
 - System properties: [Proteasome Challenge: A Guided Laboratory in Molecular Electronic Structure](./challenges/Track_A/proteasome-inhibitor/proteasome_challenge.ipynb)
 - Optimization: [Trade Circuits for Shots](./challenges/Track_A/fourier-LCU-QAOA/fourier_LCU_QAOA_challenge.ipynb)
 - QEC methods: [Sampling Hard Circuits with Verifiably High Fidelity](./challenges/Track_A/verifiability/verifiability_challenge.ipynb)
 
-### [Track B](./challenges/Track_B) (Location TBD)
+### [Track B](./challenges/Track_B)
 - Quantum dynamics: [Estimate a 56-Qubit Operator Loschmidt Echo (OLE)](./challenges/Track_B/ole/operator_loschmidt_echo_challenge.ipynb)
 - System properties: [Preparing Thermal States of Frustrated Quantum Spin Systems](./challenges/Track_B/thermal-states/thermal_states_challenge.ipynb)
 - Optimization: [Quantum Approximate Multi-Objective Optimization for Constrained Optimization Problems (C-QAMOO)](./challenges/Track_B/qamoo/qamoo_challenge.ipynb)
 - QEC methods: [Realizing Error Suppression in Partially Fault-Tolerant Quantum Simulations with the Iceberg Code](./challenges/Track_B/ising-with-iceberg/ising_challenge.ipynb)
+
+The primary location for challenges will be in __Riverwalk A, Floor 1__ of the venue.
 
 ### Repository structure
 
